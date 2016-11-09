@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<xmi:XMI xmlns:datamodelversion="http://www.ibm.com/com.ibm.datatools.core/model/data/1.8.0.0" xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:LogicalDataModel="http:///com/ibm/db/models/logical/logical.ecore" xmlns:datanotation="http:///datanotation.ecore" xmlns:ilvglnotation="http://www.ilog.com/views/8.5.0/LayoutNotationExtensionDefinition" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <LogicalDataModel:Package xmi:id="_aSGAUJB3EeaTwtCi7pQynA" name="Paquete1" targetNamespace="Modelo de datos lógico.ldm" namespaceSupported="true" contents="_gV7yEJB3EeaTwtCi7pQynA _kAQHsJB3EeaTwtCi7pQynA _losFIJB3EeaTwtCi7pQynA _mmuasJB3EeaTwtCi7pQynA _OqpmoJB4EeaTwtCi7pQynA _rfSPoJB4EeaTwtCi7pQynA _uTAUcJB4EeaTwtCi7pQynA _3rLvUJB5EeaTwtCi7pQynA _SBiYAJB6EeaTwtCi7pQynA _pDwhAJB7EeaTwtCi7pQynA _qOAGkJB7EeaTwtCi7pQynA _rpf0MJB7EeaTwtCi7pQynA _FIFR8JB9EeaTwtCi7pQynA">
+    <eAnnotations xmi:id="_aSGAUZB3EeaTwtCi7pQynA" source="diagram">
+      <contents xsi:type="datanotation:DataDiagram" xmi:id="_aSGAUpB3EeaTwtCi7pQynA" type="IE_CrowFoot" name="Modelo lógico" viewKind="ProjectExplorer" notation="IE_CrowFoot">
+        <eAnnotations xmi:id="_aSGAU5B3EeaTwtCi7pQynA" source="Diagram_State">
+          <details xmi:id="_aSGAVJB3EeaTwtCi7pQynA" key="Diagram_State_Value" value="true"/>
+        </eAnnotations>
+        <children xmi:id="_gWOtAJB3EeaTwtCi7pQynA" element="_gV7yEJB3EeaTwtCi7pQynA">
+          <children xsi:type="notation:Shape" xmi:id="_gWX28ZB3EeaTwtCi7pQynA" type="IEEntityName" fontName="Segoe UI">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_gWX28pB3EeaTwtCi7pQynA"/>
+          </children>
+          <children xmi:id="_gWhn8JB3EeaTwtCi7pQynA" type="entity.ie.key.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_yMV9gZB4EeaTwtCi7pQynA" type="IEEntityKey" element="_yMMzkJB4EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_yMV9gpB4EeaTwtCi7pQynA"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_gWhn8ZB3EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_gWhn8pB3EeaTwtCi7pQynA" type="entity.ie.nonkey.compartment">
+            <children xsi:type="notation:Shape" xmi:id="__jfk0ZB4EeaTwtCi7pQynA" type="IEEntityNonKey" element="__jfk0JB4EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="__jfk0pB4EeaTwtCi7pQynA"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_OJfk4JB5EeaTwtCi7pQynA" type="IEEntityNonKey" element="_OJWa8JB5EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_OJfk4ZB5EeaTwtCi7pQynA"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="__9YrgZB4EeaTwtCi7pQynA" type="IEEntityNonKey" element="__9YrgJB4EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="__9YrgpB4EeaTwtCi7pQynA"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_BWM4kZB5EeaTwtCi7pQynA" type="IEEntityNonKey" element="_BWM4kJB5EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_BWM4kpB5EeaTwtCi7pQynA"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_RS8CEZB5EeaTwtCi7pQynA" type="IEEntityNonKey" element="_RS8CEJB5EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_RS8CEpB5EeaTwtCi7pQynA"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_SHJtQJB5EeaTwtCi7pQynA" type="IEEntityNonKey" element="_SHAjUJB5EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_SHJtQZB5EeaTwtCi7pQynA"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_S130cZB5EeaTwtCi7pQynA" type="IEEntityNonKey" element="_S130cJB5EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_S130cpB5EeaTwtCi7pQynA"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_04gZAJFNEeavtoK77XJO2g" type="IEEntityNonKey" element="_bQk8lJFNEeavtoK77XJO2g" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_04gZAZFNEeavtoK77XJO2g"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_gWhn85B3EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_gWhn9JB3EeaTwtCi7pQynA" visible="false" type="entity.ie.description.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_gWhn9pB3EeaTwtCi7pQynA" type="IEEntityDescription" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_gWhn95B3EeaTwtCi7pQynA"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_gWhn9ZB3EeaTwtCi7pQynA"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_gWOtAZB3EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_gWX28JB3EeaTwtCi7pQynA" fontName="Segoe UI" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_gWOtApB3EeaTwtCi7pQynA" x="5847" y="1640"/>
+        </children>
+        <children xmi:id="_kAZRoJB3EeaTwtCi7pQynA" element="_kAQHsJB3EeaTwtCi7pQynA">
+          <children xsi:type="notation:Shape" xmi:id="_kAZRpJB3EeaTwtCi7pQynA" type="IEEntityName" fontName="Segoe UI">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_kAZRpZB3EeaTwtCi7pQynA"/>
+          </children>
+          <children xmi:id="_kAZRppB3EeaTwtCi7pQynA" type="entity.ie.key.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_xAnxQJB4EeaTwtCi7pQynA" type="IEEntityKey" element="_w_4KYJB4EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_xAnxQZB4EeaTwtCi7pQynA"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_kAZRp5B3EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_kAZRqJB3EeaTwtCi7pQynA" type="entity.ie.nonkey.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_7lihgJB4EeaTwtCi7pQynA" type="IEEntityNonKey" element="_7lZXkJB4EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_7lihgZB4EeaTwtCi7pQynA"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_8pFpMZB4EeaTwtCi7pQynA" type="IEEntityNonKey" element="_8pFpMJB4EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_8pFpMpB4EeaTwtCi7pQynA"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_GBY1UZB5EeaTwtCi7pQynA" type="IEEntityNonKey" element="_GBY1UJB5EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_GBY1UpB5EeaTwtCi7pQynA"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_9LADcZB4EeaTwtCi7pQynA" type="IEEntityNonKey" element="_9LADcJB4EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_9LADcpB4EeaTwtCi7pQynA"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_9qZVMZB4EeaTwtCi7pQynA" type="IEEntityNonKey" element="_9qZVMJB4EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_9qZVMpB4EeaTwtCi7pQynA"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_-Lt5kZB4EeaTwtCi7pQynA" type="IEEntityNonKey" element="_-Lt5kJB4EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_-Lt5kpB4EeaTwtCi7pQynA"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_5pfbwJFNEeavtoK77XJO2g" type="IEEntityNonKey" element="_c-hFEZFNEeavtoK77XJO2g" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_5pfbwZFNEeavtoK77XJO2g"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_kAZRqZB3EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_kAZRqpB3EeaTwtCi7pQynA" visible="false" type="entity.ie.description.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_kAZRrJB3EeaTwtCi7pQynA" type="IEEntityDescription" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_kAZRrZB3EeaTwtCi7pQynA"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_kAZRq5B3EeaTwtCi7pQynA"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_kAZRoZB3EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_kAZRo5B3EeaTwtCi7pQynA" fontName="Segoe UI" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_kAZRopB3EeaTwtCi7pQynA" x="370" y="1851"/>
+        </children>
+        <children xmi:id="_losFIZB3EeaTwtCi7pQynA" element="_losFIJB3EeaTwtCi7pQynA">
+          <children xsi:type="notation:Shape" xmi:id="_losFJZB3EeaTwtCi7pQynA" type="IEEntityName" fontName="Segoe UI">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_losFJpB3EeaTwtCi7pQynA"/>
+          </children>
+          <children xmi:id="_lo12IJB3EeaTwtCi7pQynA" type="entity.ie.key.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_4Pmgc5B4EeaTwtCi7pQynA" type="IEEntityKey" element="_4PdWgJB4EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_4PmgdJB4EeaTwtCi7pQynA"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_lo12IZB3EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_lo12IpB3EeaTwtCi7pQynA" type="entity.ie.nonkey.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_6kX_cZB4EeaTwtCi7pQynA" type="IEEntityNonKey" element="_6kX_cJB4EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_6kX_cpB4EeaTwtCi7pQynA"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_WIO9EZB5EeaTwtCi7pQynA" type="IEEntityNonKey" element="_WIO9EJB5EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_WIO9EpB5EeaTwtCi7pQynA"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_caT3wJB8EeaTwtCi7pQynA" type="IEEntityNonKey" element="_ERiL0ZB6EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_caT3wZB8EeaTwtCi7pQynA"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_lo12I5B3EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_lo12JJB3EeaTwtCi7pQynA" visible="false" type="entity.ie.description.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_lo12JpB3EeaTwtCi7pQynA" type="IEEntityDescription" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_lo12J5B3EeaTwtCi7pQynA"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_lo12JZB3EeaTwtCi7pQynA"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_losFIpB3EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_losFJJB3EeaTwtCi7pQynA" fontName="Segoe UI" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_losFI5B3EeaTwtCi7pQynA" x="317" y="8120" width="3515" height="3440"/>
+        </children>
+        <children xmi:id="_mm4LsJB3EeaTwtCi7pQynA" element="_mmuasJB3EeaTwtCi7pQynA">
+          <children xsi:type="notation:Shape" xmi:id="_mm4LtJB3EeaTwtCi7pQynA" type="IEEntityName" fontName="Segoe UI">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_mm4LtZB3EeaTwtCi7pQynA"/>
+          </children>
+          <children xmi:id="_mm4LtpB3EeaTwtCi7pQynA" type="entity.ie.key.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_4zdbc5B4EeaTwtCi7pQynA" type="IEEntityKey" element="_4zTqcJB4EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_4zdbdJB4EeaTwtCi7pQynA"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_mm4Lt5B3EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_mm4LuJB3EeaTwtCi7pQynA" type="entity.ie.nonkey.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_Z3dn4ZB5EeaTwtCi7pQynA" type="IEEntityNonKey" element="_Z3dn4JB5EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_Z3dn4pB5EeaTwtCi7pQynA"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_a5E14JB5EeaTwtCi7pQynA" type="IEEntityNonKey" element="_a47E4JB5EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_a5E14ZB5EeaTwtCi7pQynA"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_mm4LuZB3EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_mm4LupB3EeaTwtCi7pQynA" visible="false" type="entity.ie.description.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_mm4LvJB3EeaTwtCi7pQynA" type="IEEntityDescription" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_mm4LvZB3EeaTwtCi7pQynA"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_mm4Lu5B3EeaTwtCi7pQynA"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_mm4LsZB3EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_mm4Ls5B3EeaTwtCi7pQynA" fontName="Segoe UI" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_mm4LspB3EeaTwtCi7pQynA" x="6244" y="8278" width="3012" height="3123"/>
+        </children>
+        <children xmi:id="_OqpmoZB4EeaTwtCi7pQynA" element="_OqpmoJB4EeaTwtCi7pQynA">
+          <children xsi:type="notation:Shape" xmi:id="_OqpmpZB4EeaTwtCi7pQynA" type="IEEntityName" fontName="Segoe UI">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_OqpmppB4EeaTwtCi7pQynA"/>
+          </children>
+          <children xmi:id="_Oqpmp5B4EeaTwtCi7pQynA" type="entity.ie.key.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_jUYOQZB5EeaTwtCi7pQynA" type="IEEntityKey" element="_jUOdQJB5EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_jUYOQpB5EeaTwtCi7pQynA"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_OqpmqJB4EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_OqzXoJB4EeaTwtCi7pQynA" type="entity.ie.nonkey.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_kCf4gZB5EeaTwtCi7pQynA" type="IEEntityNonKey" element="_kCf4gJB5EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_kCf4gpB5EeaTwtCi7pQynA"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_B9HnQJB8EeaTwtCi7pQynA" type="IEEntityNonKey" element="_lKrzIJB6EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_B9HnQZB8EeaTwtCi7pQynA"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_B2k6YJB8EeaTwtCi7pQynA" type="IEEntityNonKey" element="_A6Jj0ZB7EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_B2k6YZB8EeaTwtCi7pQynA"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_V2JqYJCAEeaTwtCi7pQynA" type="IEEntityNonKey" element="_5zf38JB_EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_V2JqYZCAEeaTwtCi7pQynA"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_OqzXoZB4EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_OqzXopB4EeaTwtCi7pQynA" visible="false" type="entity.ie.description.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_OqzXpJB4EeaTwtCi7pQynA" type="IEEntityDescription" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_OqzXpZB4EeaTwtCi7pQynA"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_OqzXo5B4EeaTwtCi7pQynA"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_OqpmopB4EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_OqpmpJB4EeaTwtCi7pQynA" fontName="Segoe UI" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_Oqpmo5B4EeaTwtCi7pQynA" x="12712" y="2049" height="3731"/>
+        </children>
+        <children xmi:id="_rfSPoZB4EeaTwtCi7pQynA" element="_rfSPoJB4EeaTwtCi7pQynA">
+          <children xsi:type="notation:Shape" xmi:id="_rfSPpZB4EeaTwtCi7pQynA" type="IEEntityName" fontName="Segoe UI">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_rfSPppB4EeaTwtCi7pQynA"/>
+          </children>
+          <children xmi:id="_rfSPp5B4EeaTwtCi7pQynA" type="entity.ie.key.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_hjUHAJB-EeaTwtCi7pQynA" type="IEEntityKey" element="_hi3bEJB-EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_hjUHAZB-EeaTwtCi7pQynA"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_rfSPqJB4EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_rfSPqZB4EeaTwtCi7pQynA" type="entity.ie.nonkey.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_u9rFQZB8EeaTwtCi7pQynA" type="IEEntityNonKey" element="_u9rFQJB8EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_u9rFQpB8EeaTwtCi7pQynA"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_wGbdEZB8EeaTwtCi7pQynA" type="IEEntityNonKey" element="_wGbdEJB8EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_wGbdEpB8EeaTwtCi7pQynA"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_xFzPYZB8EeaTwtCi7pQynA" type="IEEntityNonKey" element="_xFzPYJB8EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_xFzPYpB8EeaTwtCi7pQynA"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_yjhxoZB8EeaTwtCi7pQynA" type="IEEntityNonKey" element="_yjhxoJB8EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_yjhxopB8EeaTwtCi7pQynA"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_rfSPqpB4EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_rfSPq5B4EeaTwtCi7pQynA" visible="false" type="entity.ie.description.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_rfSPrZB4EeaTwtCi7pQynA" type="IEEntityDescription" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_rfSPrpB4EeaTwtCi7pQynA"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_rfSPrJB4EeaTwtCi7pQynA"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_rfSPopB4EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_rfSPpJB4EeaTwtCi7pQynA" fontName="Segoe UI" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_rfSPo5B4EeaTwtCi7pQynA" x="26537" y="-2554"/>
+        </children>
+        <children xmi:id="_3rVgUJB5EeaTwtCi7pQynA" element="_3rLvUJB5EeaTwtCi7pQynA">
+          <children xsi:type="notation:Shape" xmi:id="_3rVgVJB5EeaTwtCi7pQynA" type="IEEntityName" fontName="Segoe UI">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_3rVgVZB5EeaTwtCi7pQynA"/>
+          </children>
+          <children xmi:id="_3rVgVpB5EeaTwtCi7pQynA" type="entity.ie.key.compartment">
+            <children xsi:type="notation:Shape" xmi:id="__DuNsJB6EeaTwtCi7pQynA" type="IEEntityKey" element="__DkcsJB6EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="__DuNsZB6EeaTwtCi7pQynA"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_3rVgV5B5EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_3rVgWJB5EeaTwtCi7pQynA" type="entity.ie.nonkey.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_NlQkgJB7EeaTwtCi7pQynA" type="IEEntityNonKey" element="_NlGzgJB7EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_NlQkgZB7EeaTwtCi7pQynA"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_qjgUEZFNEeavtoK77XJO2g" type="IEEntityNonKey" element="_qjgUEJFNEeavtoK77XJO2g" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_qjgUEpFNEeavtoK77XJO2g"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_j-bJcJB8EeaTwtCi7pQynA" type="IEEntityNonKey" element="_fXOKQZB7EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_j-bJcZB8EeaTwtCi7pQynA"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_jR2SEJFSEeavtoK77XJO2g" type="IEEntityNonKey" element="_a2ZIsJFSEeavtoK77XJO2g" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_jR2SEZFSEeavtoK77XJO2g"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_3rVgWZB5EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_3rVgWpB5EeaTwtCi7pQynA" visible="false" type="entity.ie.description.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_3rVgXJB5EeaTwtCi7pQynA" type="IEEntityDescription" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_3rVgXZB5EeaTwtCi7pQynA"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_3rVgW5B5EeaTwtCi7pQynA"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_3rVgUZB5EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_3rVgU5B5EeaTwtCi7pQynA" fontName="Segoe UI" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_3rVgUpB5EeaTwtCi7pQynA" x="19432" y="2287" height="3255"/>
+        </children>
+        <children xmi:id="_SBiYAZB6EeaTwtCi7pQynA" element="_SBiYAJB6EeaTwtCi7pQynA">
+          <children xsi:type="notation:Shape" xmi:id="_SBiYBZB6EeaTwtCi7pQynA" type="IEEntityName" fontName="Segoe UI">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_SBiYBpB6EeaTwtCi7pQynA"/>
+          </children>
+          <children xmi:id="_SBiYB5B6EeaTwtCi7pQynA" type="entity.ie.key.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_UVmP4ZB7EeaTwtCi7pQynA" type="IEEntityKey" element="_UVce4JB7EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_UVmP4pB7EeaTwtCi7pQynA"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_SBiYCJB6EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_SBiYCZB6EeaTwtCi7pQynA" type="entity.ie.nonkey.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_pJpmQJB-EeaTwtCi7pQynA" type="IEEntityNonKey" element="_hjnB8JB-EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_pJpmQZB-EeaTwtCi7pQynA"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QMB_IZFPEeavtoK77XJO2g" type="IEEntityNonKey" element="_QMB_IJFPEeavtoK77XJO2g" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QMB_IpFPEeavtoK77XJO2g"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_RPauwZFPEeavtoK77XJO2g" type="IEEntityNonKey" element="_RPauwJFPEeavtoK77XJO2g" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_RPauwpFPEeavtoK77XJO2g"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_TqlwsJFPEeavtoK77XJO2g" type="IEEntityNonKey" element="_TqcmwJFPEeavtoK77XJO2g" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_TqlwsZFPEeavtoK77XJO2g"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_SBiYCpB6EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_SBiYC5B6EeaTwtCi7pQynA" visible="false" type="entity.ie.description.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_SBiYDZB6EeaTwtCi7pQynA" type="IEEntityDescription" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_SBiYDpB6EeaTwtCi7pQynA"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_SBiYDJB6EeaTwtCi7pQynA"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_SBiYApB6EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_SBiYBJB6EeaTwtCi7pQynA" fontName="Segoe UI" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_SBiYA5B6EeaTwtCi7pQynA" x="19764" y="-2673" height="3096"/>
+        </children>
+        <children xmi:id="_pD6SAJB7EeaTwtCi7pQynA" element="_pDwhAJB7EeaTwtCi7pQynA">
+          <children xsi:type="notation:Shape" xmi:id="_pD6SBJB7EeaTwtCi7pQynA" type="IEEntityName" fontName="Segoe UI">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_pD6SBZB7EeaTwtCi7pQynA"/>
+          </children>
+          <children xmi:id="_pD6SBpB7EeaTwtCi7pQynA" type="entity.ie.key.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_1uEwIJB-EeaTwtCi7pQynA" type="IEEntityKey" element="_1tx1MJB-EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_1uEwIZB-EeaTwtCi7pQynA"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_pD6SB5B7EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+            <layoutConstraint xsi:type="notation:Ratio" xmi:id="_CN2gAJB-EeaTwtCi7pQynA" value="0.21297770700636942"/>
+          </children>
+          <children xmi:id="_pD6SCJB7EeaTwtCi7pQynA" type="entity.ie.nonkey.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_YWXjUZFPEeavtoK77XJO2g" type="IEEntityNonKey" element="_YWXjUJFPEeavtoK77XJO2g" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YWXjUpFPEeavtoK77XJO2g"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_I5AT8ZB_EeaTwtCi7pQynA" type="IEEntityNonKey" element="_I5AT8JB_EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_I5AT8pB_EeaTwtCi7pQynA"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_RAFIwZB_EeaTwtCi7pQynA" type="IEEntityNonKey" element="_RAFIwJB_EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_RAFIwpB_EeaTwtCi7pQynA"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_R1Ca0ZB_EeaTwtCi7pQynA" type="IEEntityNonKey" element="_R1Ca0JB_EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_R1Ca0pB_EeaTwtCi7pQynA"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_XZzD4JB_EeaTwtCi7pQynA" type="IEEntityNonKey" element="_XZp58JB_EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_XZzD4ZB_EeaTwtCi7pQynA"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_pD6SCZB7EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+            <layoutConstraint xsi:type="notation:Ratio" xmi:id="_CN2gAZB-EeaTwtCi7pQynA" value="0.7870222929936306"/>
+          </children>
+          <children xmi:id="_pD6SCpB7EeaTwtCi7pQynA" visible="false" type="entity.ie.description.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_pD6SDJB7EeaTwtCi7pQynA" type="IEEntityDescription" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_pD6SDZB7EeaTwtCi7pQynA"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_pD6SC5B7EeaTwtCi7pQynA"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_pD6SAZB7EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_pD6SA5B7EeaTwtCi7pQynA" fontName="Segoe UI" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_pD6SApB7EeaTwtCi7pQynA" x="12726" y="8096" width="3804" height="3487"/>
+        </children>
+        <children xmi:id="_qOAGkZB7EeaTwtCi7pQynA" element="_qOAGkJB7EeaTwtCi7pQynA">
+          <children xsi:type="notation:Shape" xmi:id="_qOAGlZB7EeaTwtCi7pQynA" type="IEEntityName" fontName="Segoe UI">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_qOAGlpB7EeaTwtCi7pQynA"/>
+          </children>
+          <children xmi:id="_qOAGl5B7EeaTwtCi7pQynA" type="entity.ie.key.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_c_v_wZB_EeaTwtCi7pQynA" type="IEEntityKey" element="_c_mOwJB_EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_c_v_wpB_EeaTwtCi7pQynA"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_qOAGmJB7EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_qOAGmZB7EeaTwtCi7pQynA" type="entity.ie.nonkey.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_b0wzUJB_EeaTwtCi7pQynA" type="IEEntityNonKey" element="_b0npYJB_EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_b0wzUZB_EeaTwtCi7pQynA"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_8hFVAJB-EeaTwtCi7pQynA" type="IEEntityNonKey" element="_hkpjwJB-EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_8hFVAZB-EeaTwtCi7pQynA"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_izrtQJB_EeaTwtCi7pQynA" type="IEEntityNonKey" element="_fmhNsJB_EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_izrtQZB_EeaTwtCi7pQynA"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_qOAGmpB7EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_qOAGm5B7EeaTwtCi7pQynA" visible="false" type="entity.ie.description.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_qOAGnZB7EeaTwtCi7pQynA" type="IEEntityDescription" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_qOAGnpB7EeaTwtCi7pQynA"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_qOAGnJB7EeaTwtCi7pQynA"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_qOAGkpB7EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_qOAGlJB7EeaTwtCi7pQynA" fontName="Segoe UI" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_qOAGk5B7EeaTwtCi7pQynA" x="25994" y="2301" height="3228"/>
+        </children>
+        <children xmi:id="_rpf0MZB7EeaTwtCi7pQynA" element="_rpf0MJB7EeaTwtCi7pQynA">
+          <children xsi:type="notation:Shape" xmi:id="_rpo-IJB7EeaTwtCi7pQynA" type="IEEntityName" fontName="Segoe UI">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_rpo-IZB7EeaTwtCi7pQynA"/>
+          </children>
+          <children xmi:id="_rpo-IpB7EeaTwtCi7pQynA" type="entity.ie.key.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_fmOSwZB_EeaTwtCi7pQynA" type="IEEntityKey" element="_fmFI0JB_EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_fmOSwpB_EeaTwtCi7pQynA"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_rpo-I5B7EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_rpo-JJB7EeaTwtCi7pQynA" type="entity.ie.nonkey.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_sYoOQZB_EeaTwtCi7pQynA" type="IEEntityNonKey" element="_sYoOQJB_EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_sYoOQpB_EeaTwtCi7pQynA"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_tiHl4JB_EeaTwtCi7pQynA" type="IEEntityNonKey" element="_th-b8JB_EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_tiHl4ZB_EeaTwtCi7pQynA"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_rpo-JZB7EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_rpo-JpB7EeaTwtCi7pQynA" visible="false" type="entity.ie.description.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_rpo-KJB7EeaTwtCi7pQynA" type="IEEntityDescription" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_rpo-KZB7EeaTwtCi7pQynA"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_rpo-J5B7EeaTwtCi7pQynA"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_rpf0MpB7EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_rpf0NJB7EeaTwtCi7pQynA" fontName="Segoe UI" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_rpf0M5B7EeaTwtCi7pQynA" x="26391" y="8411" height="2858"/>
+        </children>
+        <children xmi:id="_FIFR8ZB9EeaTwtCi7pQynA" element="_FIFR8JB9EeaTwtCi7pQynA">
+          <children xsi:type="notation:Shape" xmi:id="_FIFR9ZB9EeaTwtCi7pQynA" type="IEEntityName" fontName="Segoe UI">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_FIFR9pB9EeaTwtCi7pQynA"/>
+          </children>
+          <children xmi:id="_FIFR95B9EeaTwtCi7pQynA" type="entity.ie.key.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_pQ-g0JB_EeaTwtCi7pQynA" type="IEEntityKey" element="_pQh04JB_EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_pQ-g0ZB_EeaTwtCi7pQynA"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_FIFR-JB9EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_FIFR-ZB9EeaTwtCi7pQynA" type="entity.ie.nonkey.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_4vU6oJB-EeaTwtCi7pQynA" type="IEEntityNonKey" element="_OAIbRJB-EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_4vU6oZB-EeaTwtCi7pQynA"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_4zpZ8JB-EeaTwtCi7pQynA" type="IEEntityNonKey" element="_1uN6EJB-EeaTwtCi7pQynA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_4zpZ8ZB-EeaTwtCi7pQynA"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_FIFR-pB9EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_FIFR-5B9EeaTwtCi7pQynA" visible="false" type="entity.ie.description.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_FIFR_ZB9EeaTwtCi7pQynA" type="IEEntityDescription" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_FIFR_pB9EeaTwtCi7pQynA"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_FIFR_JB9EeaTwtCi7pQynA"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_FIFR8pB9EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_FIFR9JB9EeaTwtCi7pQynA" fontName="Segoe UI" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_FIFR85B9EeaTwtCi7pQynA" x="19050" y="8411" height="2858"/>
+        </children>
+        <children xsi:type="notation:Shape" xmi:id="_wJ6vsJFdEeavtoK77XJO2g" type="Text" fontHeight="22" description="MODELO LÓGICO">
+          <children xsi:type="notation:BasicDecorationNode" xmi:id="_wKNqoJFdEeavtoK77XJO2g" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xsi:type="notation:BasicDecorationNode" xmi:id="_wKNqoZFdEeavtoK77XJO2g" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <element xsi:nil="true"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_wJ6vsZFdEeavtoK77XJO2g" x="3332" y="-1086" width="10766" height="1294"/>
+        </children>
+        <styles xsi:type="datanotation:DataAttributeStyle" xmi:id="_aSGAVZB3EeaTwtCi7pQynA"/>
+        <styles xsi:type="datanotation:DataCompartmentStyle" xmi:id="_aSGAVpB3EeaTwtCi7pQynA"/>
+        <styles xsi:type="datanotation:DataDisplayStyle" xmi:id="_aSGAV5B3EeaTwtCi7pQynA"/>
+        <styles xsi:type="datanotation:DataDiagramRelationshipStyle" xmi:id="_aSGAWJB3EeaTwtCi7pQynA" showConstraintName="false"/>
+        <styles xsi:type="datanotation:DataShapeNameStyle" xmi:id="_aSGAWZB3EeaTwtCi7pQynA"/>
+        <styles xsi:type="datanotation:DataDiagramFormattingStyle" xmi:id="_aSGAWpB3EeaTwtCi7pQynA"/>
+        <styles xsi:type="datanotation:ConnectionLayerStyle" xmi:id="_aSGAW5B3EeaTwtCi7pQynA"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_aSGAXJB3EeaTwtCi7pQynA"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_aSGAXZB3EeaTwtCi7pQynA" sortingKeys="Natural:Ascending"/>
+        <styles xsi:type="ilvglnotation:LayoutStyle" xmi:id="_aSGAXpB3EeaTwtCi7pQynA" graphLayoutConfiguration="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;java version=&quot;1.7.0&quot; class=&quot;java.beans.XMLDecoder&quot;>&#xA; &lt;object class=&quot;java.util.HashMap&quot;>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>horizontalNodeLinkOffset&lt;/string>&#xA;   &lt;float>500.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>horizontalNodeOffset&lt;/string>&#xA;   &lt;float>1000.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>levelingStrategy&lt;/string>&#xA;   &lt;int>1&lt;/int>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>verticalNodeOffset&lt;/string>&#xA;   &lt;float>1000.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>layout&lt;/string>&#xA;   &lt;string>ilog.views.eclipse.graphlayout.runtime.hierarchical.IlvHierarchicalLayout&lt;/string>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>globalLinkStyle&lt;/string>&#xA;   &lt;int>2&lt;/int>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>verticalNodeLinkOffset&lt;/string>&#xA;   &lt;float>500.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>horizontalLinkOffset&lt;/string>&#xA;   &lt;float>150.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>verticalLinkOffset&lt;/string>&#xA;   &lt;float>150.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>levelJustification&lt;/string>&#xA;   &lt;int>16&lt;/int>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>flowDirection&lt;/string>&#xA;   &lt;int>4&lt;/int>&#xA;  &lt;/void>&#xA; &lt;/object>&#xA;&lt;/java>&#xA;" linkLayoutConfiguration="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;java version=&quot;1.7.0&quot; class=&quot;java.beans.XMLDecoder&quot;>&#xA; &lt;object class=&quot;java.util.HashMap&quot;/>&#xA;&lt;/java>&#xA;" labelLayoutConfiguration="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;java version=&quot;1.7.0&quot; class=&quot;java.beans.XMLDecoder&quot;>&#xA; &lt;object class=&quot;java.util.HashMap&quot;/>&#xA;&lt;/java>&#xA;"/>
+        <edges xmi:id="_ETn2gJB6EeaTwtCi7pQynA" element="_ERPQ4JB6EeaTwtCi7pQynA" source="_mm4LsJB3EeaTwtCi7pQynA" target="_losFIZB3EeaTwtCi7pQynA">
+          <children xmi:id="_ETn2g5B6EeaTwtCi7pQynA" type="relationship.ie.name">
+            <children xsi:type="notation:Shape" xmi:id="_ETxAcJB6EeaTwtCi7pQynA" type="IERelationship.name" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_ETxAcZB6EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_ETn2hJB6EeaTwtCi7pQynA" y="-186"/>
+          </children>
+          <children xmi:id="_ETxAcpB6EeaTwtCi7pQynA" type="relationship.ie.child.name">
+            <children xsi:type="notation:Shape" xmi:id="_ETxAdJB6EeaTwtCi7pQynA" type="IERelationship.childname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_ETxAdZB6EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_ETxAc5B6EeaTwtCi7pQynA" x="-1083" y="293"/>
+          </children>
+          <children xmi:id="_ETxAdpB6EeaTwtCi7pQynA" type="relationship.ie.parent.name">
+            <children xsi:type="notation:Shape" xmi:id="_ETxAeJB6EeaTwtCi7pQynA" type="IERelationship.parentname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_ETxAeZB6EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_ETxAd5B6EeaTwtCi7pQynA" y="-397"/>
+          </children>
+          <children xmi:id="_ETxAepB6EeaTwtCi7pQynA" type="relationship.ie.ri">
+            <children xsi:type="notation:Shape" xmi:id="_ETxAfJB6EeaTwtCi7pQynA" type="IERelationship.ri" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_ETxAfZB6EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_ETxAe5B6EeaTwtCi7pQynA" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_ETxAfpB6EeaTwtCi7pQynA" type="relationship.ie.child.cardinality.name">
+            <children xsi:type="notation:Shape" xmi:id="_ETxAgJB6EeaTwtCi7pQynA" type="IERelationship.childcardinalityname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_ETxAgZB6EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_ETxAf5B6EeaTwtCi7pQynA" x="-265" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_ETn2gZB6EeaTwtCi7pQynA" fontName="Segoe UI" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_ETn2gpB6EeaTwtCi7pQynA" points="[-1453, -209, 2517, 1484]$[-3970, -209, 0, 1484]"/>
+          <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_EVQOMJB6EeaTwtCi7pQynA" id="(1.0,0.0)"/>
+        </edges>
+        <edges xmi:id="_cGw7kJB6EeaTwtCi7pQynA" element="_cGBUsJB6EeaTwtCi7pQynA" source="_gWOtAJB3EeaTwtCi7pQynA" target="_OqpmoZB4EeaTwtCi7pQynA">
+          <children xmi:id="_cGw7k5B6EeaTwtCi7pQynA" type="relationship.ie.name">
+            <children xsi:type="notation:Shape" xmi:id="_cGw7lZB6EeaTwtCi7pQynA" type="IERelationship.name" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_cGw7lpB6EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_cGw7lJB6EeaTwtCi7pQynA" y="-186"/>
+          </children>
+          <children xmi:id="_cGw7l5B6EeaTwtCi7pQynA" type="relationship.ie.child.name">
+            <children xsi:type="notation:Shape" xmi:id="_cGw7mZB6EeaTwtCi7pQynA" type="IERelationship.childname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_cGw7mpB6EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_cGw7mJB6EeaTwtCi7pQynA" x="-1034" y="-372"/>
+          </children>
+          <children xmi:id="_cGw7m5B6EeaTwtCi7pQynA" type="relationship.ie.parent.name">
+            <children xsi:type="notation:Shape" xmi:id="_cGw7nZB6EeaTwtCi7pQynA" type="IERelationship.parentname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_cGw7npB6EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_cGw7nJB6EeaTwtCi7pQynA" y="-397"/>
+          </children>
+          <children xmi:id="_cGw7n5B6EeaTwtCi7pQynA" type="relationship.ie.ri">
+            <children xsi:type="notation:Shape" xmi:id="_cGw7oZB6EeaTwtCi7pQynA" type="IERelationship.ri" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_cGw7opB6EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_cGw7oJB6EeaTwtCi7pQynA" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_cGw7o5B6EeaTwtCi7pQynA" type="relationship.ie.child.cardinality.name">
+            <children xsi:type="notation:Shape" xmi:id="_cG6FgJB6EeaTwtCi7pQynA" type="IERelationship.childcardinalityname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_cG6FgZB6EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_cGw7pJB6EeaTwtCi7pQynA" x="-265" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_cGw7kZB6EeaTwtCi7pQynA" fontName="Segoe UI" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_cGw7kpB6EeaTwtCi7pQynA" points="[1798, 10, -4856, 36]$[2145, 10, -4509, 36]$[4738, -196, -1916, -170]"/>
+          <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_cHD2gJB6EeaTwtCi7pQynA" id="(0.9521807672096689,0.5640901381148534)"/>
+        </edges>
+        <edges xmi:id="_A7fAkJB7EeaTwtCi7pQynA" element="_A5_y0JB7EeaTwtCi7pQynA" source="_3rVgUJB5EeaTwtCi7pQynA" target="_OqpmoZB4EeaTwtCi7pQynA">
+          <children xmi:id="_A7fAk5B7EeaTwtCi7pQynA" type="relationship.ie.name">
+            <children xsi:type="notation:Shape" xmi:id="_A7fAlZB7EeaTwtCi7pQynA" type="IERelationship.name" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_A7fAlpB7EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_A7fAlJB7EeaTwtCi7pQynA" y="-186"/>
+          </children>
+          <children xmi:id="_A7oxkJB7EeaTwtCi7pQynA" type="relationship.ie.child.name">
+            <children xsi:type="notation:Shape" xmi:id="_A7oxkpB7EeaTwtCi7pQynA" type="IERelationship.childname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_A7oxk5B7EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_A7oxkZB7EeaTwtCi7pQynA" x="-1375" y="318"/>
+          </children>
+          <children xmi:id="_A7oxlJB7EeaTwtCi7pQynA" type="relationship.ie.parent.name">
+            <children xsi:type="notation:Shape" xmi:id="_A7oxlpB7EeaTwtCi7pQynA" type="IERelationship.parentname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_A7oxl5B7EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_A7oxlZB7EeaTwtCi7pQynA" y="-397"/>
+          </children>
+          <children xmi:id="_A7oxmJB7EeaTwtCi7pQynA" type="relationship.ie.ri">
+            <children xsi:type="notation:Shape" xmi:id="_A7oxmpB7EeaTwtCi7pQynA" type="IERelationship.ri" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_A7oxm5B7EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_A7oxmZB7EeaTwtCi7pQynA" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_A7oxnJB7EeaTwtCi7pQynA" type="relationship.ie.child.cardinality.name">
+            <children xsi:type="notation:Shape" xmi:id="_A7oxnpB7EeaTwtCi7pQynA" type="IERelationship.childcardinalityname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_A7oxn5B7EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_A7oxnZB7EeaTwtCi7pQynA" x="-265" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_A7fAkZB7EeaTwtCi7pQynA" fontName="Segoe UI" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_A7fAkpB7EeaTwtCi7pQynA" points="[-1546, 213, 2993, -270]$[-4539, 213, 0, -270]"/>
+          <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_A7x7gJB7EeaTwtCi7pQynA" id="(1.0,0.6312127236580517)"/>
+        </edges>
+        <edges xmi:id="_fZc-4JB7EeaTwtCi7pQynA" element="_fXFAUJB7EeaTwtCi7pQynA" source="_SBiYAZB6EeaTwtCi7pQynA" target="_3rVgUJB5EeaTwtCi7pQynA">
+          <children xmi:id="_fZc-45B7EeaTwtCi7pQynA" type="relationship.ie.name">
+            <children xsi:type="notation:Shape" xmi:id="_fZc-5ZB7EeaTwtCi7pQynA" type="IERelationship.name" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_fZc-5pB7EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_fZc-5JB7EeaTwtCi7pQynA" y="-186"/>
+          </children>
+          <children xmi:id="_fZc-55B7EeaTwtCi7pQynA" type="relationship.ie.child.name">
+            <children xsi:type="notation:Shape" xmi:id="_fZc-6ZB7EeaTwtCi7pQynA" type="IERelationship.childname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_fZc-6pB7EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_fZc-6JB7EeaTwtCi7pQynA" x="-690" y="-185"/>
+          </children>
+          <children xmi:id="_fZc-65B7EeaTwtCi7pQynA" type="relationship.ie.parent.name">
+            <children xsi:type="notation:Shape" xmi:id="_fZc-7ZB7EeaTwtCi7pQynA" type="IERelationship.parentname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_fZc-7pB7EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_fZc-7JB7EeaTwtCi7pQynA" y="-397"/>
+          </children>
+          <children xmi:id="_fZc-75B7EeaTwtCi7pQynA" type="relationship.ie.ri">
+            <children xsi:type="notation:Shape" xmi:id="_fZc-8ZB7EeaTwtCi7pQynA" type="IERelationship.ri" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_fZc-8pB7EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_fZc-8JB7EeaTwtCi7pQynA" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_fZc-85B7EeaTwtCi7pQynA" type="relationship.ie.child.cardinality.name">
+            <children xsi:type="notation:Shape" xmi:id="_fZc-9ZB7EeaTwtCi7pQynA" type="IERelationship.childcardinalityname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_fZc-9pB7EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_fZc-9JB7EeaTwtCi7pQynA" x="-265" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_fZc-4ZB7EeaTwtCi7pQynA" fontName="Segoe UI" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_fZc-4pB7EeaTwtCi7pQynA" points="[-839, -1, 82, -3359]$[-839, 1745, 82, -1613]"/>
+          <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_fZmv4JB7EeaTwtCi7pQynA" id="(0.7483221476510067,1.0)"/>
+        </edges>
+        <edges xmi:id="_w53hoJB7EeaTwtCi7pQynA" element="_w5kmsJB7EeaTwtCi7pQynA" source="_rfSPoZB4EeaTwtCi7pQynA" target="_SBiYAZB6EeaTwtCi7pQynA">
+          <children xmi:id="_w53ho5B7EeaTwtCi7pQynA" type="relationship.ie.name">
+            <children xsi:type="notation:Shape" xmi:id="_w53hpZB7EeaTwtCi7pQynA" type="IERelationship.name" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_w53hppB7EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_w53hpJB7EeaTwtCi7pQynA" y="-186"/>
+          </children>
+          <children xmi:id="_w53hp5B7EeaTwtCi7pQynA" type="relationship.ie.child.name">
+            <children xsi:type="notation:Shape" xmi:id="_w53hqZB7EeaTwtCi7pQynA" type="IERelationship.childname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_w53hqpB7EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_w53hqJB7EeaTwtCi7pQynA" x="-1667" y="291"/>
+          </children>
+          <children xmi:id="_w53hq5B7EeaTwtCi7pQynA" type="relationship.ie.parent.name">
+            <children xsi:type="notation:Shape" xmi:id="_w53hrZB7EeaTwtCi7pQynA" type="IERelationship.parentname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_w53hrpB7EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_w53hrJB7EeaTwtCi7pQynA" y="-397"/>
+          </children>
+          <children xmi:id="_w53hr5B7EeaTwtCi7pQynA" type="relationship.ie.ri">
+            <children xsi:type="notation:Shape" xmi:id="_w53hsZB7EeaTwtCi7pQynA" type="IERelationship.ri" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_w53hspB7EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_w53hsJB7EeaTwtCi7pQynA" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_w53hs5B7EeaTwtCi7pQynA" type="relationship.ie.child.cardinality.name">
+            <children xsi:type="notation:Shape" xmi:id="_w53htZB7EeaTwtCi7pQynA" type="IERelationship.childcardinalityname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_w53htpB7EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_w53htJB7EeaTwtCi7pQynA" x="-265" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_w53hoZB7EeaTwtCi7pQynA" fontName="Segoe UI" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_w53hopB7EeaTwtCi7pQynA" points="[0, -140, 5346, 198]$[-3919, -140, 1427, 198]"/>
+          <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_w6BSoJB7EeaTwtCi7pQynA" id="(0.0,0.6207418622255867)"/>
+        </edges>
+        <edges xmi:id="_zmJhsJB7EeaTwtCi7pQynA" element="_zl_wsJB7EeaTwtCi7pQynA" source="_rfSPoZB4EeaTwtCi7pQynA" target="_qOAGkZB7EeaTwtCi7pQynA">
+          <children xmi:id="_zmTSsJB7EeaTwtCi7pQynA" type="relationship.ie.name">
+            <children xsi:type="notation:Shape" xmi:id="_zmTSspB7EeaTwtCi7pQynA" type="IERelationship.name" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_zmTSs5B7EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_zmTSsZB7EeaTwtCi7pQynA" y="-186"/>
+          </children>
+          <children xmi:id="_zmTStJB7EeaTwtCi7pQynA" type="relationship.ie.child.name">
+            <children xsi:type="notation:Shape" xmi:id="_zmTStpB7EeaTwtCi7pQynA" type="IERelationship.childname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_zmTSt5B7EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_zmTStZB7EeaTwtCi7pQynA" x="-424" y="900"/>
+          </children>
+          <children xmi:id="_zmTSuJB7EeaTwtCi7pQynA" type="relationship.ie.parent.name">
+            <children xsi:type="notation:Shape" xmi:id="_zmTSupB7EeaTwtCi7pQynA" type="IERelationship.parentname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_zmTSu5B7EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_zmTSuZB7EeaTwtCi7pQynA" y="-397"/>
+          </children>
+          <children xmi:id="_zmTSvJB7EeaTwtCi7pQynA" type="relationship.ie.ri">
+            <children xsi:type="notation:Shape" xmi:id="_zmTSvpB7EeaTwtCi7pQynA" type="IERelationship.ri" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_zmTSv5B7EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_zmTSvZB7EeaTwtCi7pQynA" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_zmTSwJB7EeaTwtCi7pQynA" type="relationship.ie.child.cardinality.name">
+            <children xsi:type="notation:Shape" xmi:id="_zmTSwpB7EeaTwtCi7pQynA" type="IERelationship.childcardinalityname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_zmTSw5B7EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_zmTSwZB7EeaTwtCi7pQynA" x="-265" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_zmJhsZB7EeaTwtCi7pQynA" fontName="Segoe UI" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_zmJhspB7EeaTwtCi7pQynA" points="[-1055, 897, 734, -4720]$[-1055, 2946, 734, -2671]"/>
+          <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_zmvXkJB7EeaTwtCi7pQynA" id="(1.0,0.6805450416351249)"/>
+          <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_zmvXkZB7EeaTwtCi7pQynA" id="(0.3002618562700029,0.8410295230885693)"/>
+        </edges>
+        <edges xmi:id="_0xkzAJB7EeaTwtCi7pQynA" element="_0xbpEJB7EeaTwtCi7pQynA" source="_rfSPoZB4EeaTwtCi7pQynA" target="_3rVgUJB5EeaTwtCi7pQynA">
+          <children xmi:id="_0xukAJB7EeaTwtCi7pQynA" type="relationship.ie.name">
+            <children xsi:type="notation:Shape" xmi:id="_0xukApB7EeaTwtCi7pQynA" type="IERelationship.name" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_0xukA5B7EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_0xukAZB7EeaTwtCi7pQynA" y="-186"/>
+          </children>
+          <children xmi:id="_0xukBJB7EeaTwtCi7pQynA" type="relationship.ie.child.name">
+            <children xsi:type="notation:Shape" xmi:id="_0xukBpB7EeaTwtCi7pQynA" type="IERelationship.childname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_0xukB5B7EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_0xukBZB7EeaTwtCi7pQynA" x="-1570" y="-125"/>
+          </children>
+          <children xmi:id="_0xukCJB7EeaTwtCi7pQynA" type="relationship.ie.parent.name">
+            <children xsi:type="notation:Shape" xmi:id="_0xukCpB7EeaTwtCi7pQynA" type="IERelationship.parentname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_0xukC5B7EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_0xukCZB7EeaTwtCi7pQynA" y="-397"/>
+          </children>
+          <children xmi:id="_0xukDJB7EeaTwtCi7pQynA" type="relationship.ie.ri">
+            <children xsi:type="notation:Shape" xmi:id="_0xukDpB7EeaTwtCi7pQynA" type="IERelationship.ri" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_0xukD5B7EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_0xukDZB7EeaTwtCi7pQynA" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_0xukEJB7EeaTwtCi7pQynA" type="relationship.ie.child.cardinality.name">
+            <children xsi:type="notation:Shape" xmi:id="_0xukEpB7EeaTwtCi7pQynA" type="IERelationship.childcardinalityname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_0xukE5B7EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_0xukEZB7EeaTwtCi7pQynA" x="-265" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_0xkzAZB7EeaTwtCi7pQynA" fontName="Segoe UI" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_0xkzApB7EeaTwtCi7pQynA" points="[-1201, 1133, 5481, -3681]$[-5188, 3811, 1494, -1003]"/>
+          <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_0x4VAJB7EeaTwtCi7pQynA" id="(0.3869303525365434,1.0)"/>
+          <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_0x4VAZB7EeaTwtCi7pQynA" id="(0.9599624648107601,0.03926441351888668)"/>
+        </edges>
+        <edges xmi:id="_BzgtYJB-EeaTwtCi7pQynA" element="_BzNycJB-EeaTwtCi7pQynA" source="_pD6SAJB7EeaTwtCi7pQynA" target="_FIFR8ZB9EeaTwtCi7pQynA">
+          <children xmi:id="_BzgtY5B-EeaTwtCi7pQynA" type="relationship.ie.name">
+            <children xsi:type="notation:Shape" xmi:id="_BzgtZZB-EeaTwtCi7pQynA" type="IERelationship.name" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_BzgtZpB-EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_BzgtZJB-EeaTwtCi7pQynA" y="-186"/>
+          </children>
+          <children xmi:id="_BzgtZ5B-EeaTwtCi7pQynA" type="relationship.ie.child.name">
+            <children xsi:type="notation:Shape" xmi:id="_BzgtaZB-EeaTwtCi7pQynA" type="IERelationship.childname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_BzgtapB-EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_BzgtaJB-EeaTwtCi7pQynA" x="-899" y="-584"/>
+          </children>
+          <children xmi:id="_Bzgta5B-EeaTwtCi7pQynA" type="relationship.ie.parent.name">
+            <children xsi:type="notation:Shape" xmi:id="_BzgtbZB-EeaTwtCi7pQynA" type="IERelationship.parentname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_BzgtbpB-EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_BzgtbJB-EeaTwtCi7pQynA" y="-397"/>
+          </children>
+          <children xmi:id="_Bzgtb5B-EeaTwtCi7pQynA" type="relationship.ie.ri">
+            <children xsi:type="notation:Shape" xmi:id="_BzgtcZB-EeaTwtCi7pQynA" type="IERelationship.ri" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_BzgtcpB-EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_BzgtcJB-EeaTwtCi7pQynA" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_Bzgtc5B-EeaTwtCi7pQynA" type="relationship.ie.child.cardinality.name">
+            <children xsi:type="notation:Shape" xmi:id="_BzgtdZB-EeaTwtCi7pQynA" type="IERelationship.childcardinalityname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_BzgtdpB-EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_BzgtdJB-EeaTwtCi7pQynA" x="-265" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_BzgtYZB-EeaTwtCi7pQynA" fontName="Segoe UI" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_BzgtYpB-EeaTwtCi7pQynA" points="[3699, -1010, -3972, 1171]$[6324, -1010, -1347, 1171]"/>
+          <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_BzqeYJB-EeaTwtCi7pQynA" id="(0.0,0.8410295230885693)"/>
+          <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_BzqeYZB-EeaTwtCi7pQynA" id="(0.35155850792028615,0.1400454201362604)"/>
+        </edges>
+        <edges xmi:id="_OBUuEJB-EeaTwtCi7pQynA" element="_OAIbQJB-EeaTwtCi7pQynA" source="_3rVgUJB5EeaTwtCi7pQynA" target="_FIFR8ZB9EeaTwtCi7pQynA">
+          <children xmi:id="_OBd4AJB-EeaTwtCi7pQynA" type="relationship.ie.name">
+            <children xsi:type="notation:Shape" xmi:id="_OBd4ApB-EeaTwtCi7pQynA" type="IERelationship.name" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_OBd4A5B-EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_OBd4AZB-EeaTwtCi7pQynA" y="-186"/>
+          </children>
+          <children xmi:id="_OBd4BJB-EeaTwtCi7pQynA" type="relationship.ie.child.name">
+            <children xsi:type="notation:Shape" xmi:id="_OBd4BpB-EeaTwtCi7pQynA" type="IERelationship.childname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_OBd4B5B-EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_OBd4BZB-EeaTwtCi7pQynA" x="-1006" y="-609"/>
+          </children>
+          <children xmi:id="_OBd4CJB-EeaTwtCi7pQynA" type="relationship.ie.parent.name">
+            <children xsi:type="notation:Shape" xmi:id="_OBd4CpB-EeaTwtCi7pQynA" type="IERelationship.parentname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_OBd4C5B-EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_OBd4CZB-EeaTwtCi7pQynA" y="-397"/>
+          </children>
+          <children xmi:id="_OBd4DJB-EeaTwtCi7pQynA" type="relationship.ie.ri">
+            <children xsi:type="notation:Shape" xmi:id="_OBd4DpB-EeaTwtCi7pQynA" type="IERelationship.ri" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_OBd4D5B-EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_OBd4DZB-EeaTwtCi7pQynA" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_OBd4EJB-EeaTwtCi7pQynA" type="relationship.ie.child.cardinality.name">
+            <children xsi:type="notation:Shape" xmi:id="_OBd4EpB-EeaTwtCi7pQynA" type="IERelationship.childcardinalityname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_OBd4E5B-EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_OBd4EZB-EeaTwtCi7pQynA" x="-265" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_OBUuEZB-EeaTwtCi7pQynA" fontName="Segoe UI" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_OBUuEpB-EeaTwtCi7pQynA" points="[-268, 534, -64, -2963]$[-268, 3471, -64, -26]"/>
+          <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_OBnpAJB-EeaTwtCi7pQynA" id="(0.5792930872693149,0.775844930417495)"/>
+          <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_OBnpAZB-EeaTwtCi7pQynA" id="(0.5137966274910577,0.0)"/>
+        </edges>
+        <edges xmi:id="_S7-qMJB-EeaTwtCi7pQynA" element="_S7rIMJB-EeaTwtCi7pQynA" source="_rpf0MZB7EeaTwtCi7pQynA" target="_qOAGkZB7EeaTwtCi7pQynA">
+          <children xmi:id="_S7-qM5B-EeaTwtCi7pQynA" type="relationship.ie.name">
+            <children xsi:type="notation:Shape" xmi:id="_S7-qNZB-EeaTwtCi7pQynA" type="IERelationship.name" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_S7-qNpB-EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_S7-qNJB-EeaTwtCi7pQynA" y="-186"/>
+          </children>
+          <children xmi:id="_S7-qN5B-EeaTwtCi7pQynA" type="relationship.ie.child.name">
+            <children xsi:type="notation:Shape" xmi:id="_S7-qOZB-EeaTwtCi7pQynA" type="IERelationship.childname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_S7-qOpB-EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_S7-qOJB-EeaTwtCi7pQynA" x="-1375" y="501"/>
+          </children>
+          <children xmi:id="_S7-qO5B-EeaTwtCi7pQynA" type="relationship.ie.parent.name">
+            <children xsi:type="notation:Shape" xmi:id="_S7-qPZB-EeaTwtCi7pQynA" type="IERelationship.parentname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_S7-qPpB-EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_S7-qPJB-EeaTwtCi7pQynA" y="-397"/>
+          </children>
+          <children xmi:id="_S7-qP5B-EeaTwtCi7pQynA" type="relationship.ie.ri">
+            <children xsi:type="notation:Shape" xmi:id="_S7-qQZB-EeaTwtCi7pQynA" type="IERelationship.ri" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_S7-qQpB-EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_S7-qQJB-EeaTwtCi7pQynA" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_S7-qQ5B-EeaTwtCi7pQynA" type="relationship.ie.child.cardinality.name">
+            <children xsi:type="notation:Shape" xmi:id="_S7-qRZB-EeaTwtCi7pQynA" type="IERelationship.childcardinalityname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_S7-qRpB-EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_S7-qRJB-EeaTwtCi7pQynA" x="-265" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_S7-qMZB-EeaTwtCi7pQynA" fontName="Segoe UI" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_S7-qMpB-EeaTwtCi7pQynA" points="[423, -25, 68, 4258]$[423, -3091, 68, 1192]"/>
+          <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_S8H0IJB-EeaTwtCi7pQynA" id="(0.360333080999243,0.012922465208747515)"/>
+        </edges>
+        <edges xmi:id="_51uskJB_EeaTwtCi7pQynA" element="_5zWG8JB_EeaTwtCi7pQynA" source="_SBiYAZB6EeaTwtCi7pQynA" target="_OqpmoZB4EeaTwtCi7pQynA">
+          <children xmi:id="_51usk5B_EeaTwtCi7pQynA" type="relationship.ie.name">
+            <children xsi:type="notation:Shape" xmi:id="_51uslZB_EeaTwtCi7pQynA" type="IERelationship.name" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_51uslpB_EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_51uslJB_EeaTwtCi7pQynA" y="-186"/>
+          </children>
+          <children xmi:id="_51usl5B_EeaTwtCi7pQynA" type="relationship.ie.child.name">
+            <children xsi:type="notation:Shape" xmi:id="_51usmZB_EeaTwtCi7pQynA" type="IERelationship.childname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_51usmpB_EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_51usmJB_EeaTwtCi7pQynA" x="-1512" y="197"/>
+          </children>
+          <children xmi:id="_51usm5B_EeaTwtCi7pQynA" type="relationship.ie.parent.name">
+            <children xsi:type="notation:Shape" xmi:id="_51usnZB_EeaTwtCi7pQynA" type="IERelationship.parentname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_51usnpB_EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_51usnJB_EeaTwtCi7pQynA" y="-397"/>
+          </children>
+          <children xmi:id="_51usn5B_EeaTwtCi7pQynA" type="relationship.ie.ri">
+            <children xsi:type="notation:Shape" xmi:id="_51usoZB_EeaTwtCi7pQynA" type="IERelationship.ri" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_51usopB_EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_51usoJB_EeaTwtCi7pQynA" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_51uso5B_EeaTwtCi7pQynA" type="relationship.ie.child.cardinality.name">
+            <children xsi:type="notation:Shape" xmi:id="_51uspZB_EeaTwtCi7pQynA" type="IERelationship.childcardinalityname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_51usppB_EeaTwtCi7pQynA"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_51uspJB_EeaTwtCi7pQynA" x="-265" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_51uskZB_EeaTwtCi7pQynA" fontName="Segoe UI" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_51uskpB_EeaTwtCi7pQynA" points="[-1453, 1359, 5413, -3521]$[-5055, 3702, 1811, -1178]"/>
+          <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_52BngJB_EeaTwtCi7pQynA" id="(0.0,0.6991818753933291)"/>
+          <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_52BngZB_EeaTwtCi7pQynA" id="(0.973643006263048,0.009097270818754374)"/>
+        </edges>
+        <edges xmi:id="_bVobsJFNEeavtoK77XJO2g" element="_bQk8kJFNEeavtoK77XJO2g" source="_losFIZB3EeaTwtCi7pQynA" target="_gWOtAJB3EeaTwtCi7pQynA">
+          <children xmi:id="_bVobs5FNEeavtoK77XJO2g" type="relationship.ie.name">
+            <children xsi:type="notation:Shape" xmi:id="_bVobtZFNEeavtoK77XJO2g" type="IERelationship.name" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_bVobtpFNEeavtoK77XJO2g"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_bVobtJFNEeavtoK77XJO2g" y="-186"/>
+          </children>
+          <children xmi:id="_bVobt5FNEeavtoK77XJO2g" type="relationship.ie.child.name">
+            <children xsi:type="notation:Shape" xmi:id="_bVobuZFNEeavtoK77XJO2g" type="IERelationship.childname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_bVobupFNEeavtoK77XJO2g"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_bVobuJFNEeavtoK77XJO2g" x="-891" y="67"/>
+          </children>
+          <children xmi:id="_bVobu5FNEeavtoK77XJO2g" type="relationship.ie.parent.name">
+            <children xsi:type="notation:Shape" xmi:id="_bVobvZFNEeavtoK77XJO2g" type="IERelationship.parentname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_bVobvpFNEeavtoK77XJO2g"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_bVobvJFNEeavtoK77XJO2g" y="-397"/>
+          </children>
+          <children xmi:id="_bVobv5FNEeavtoK77XJO2g" type="relationship.ie.ri">
+            <children xsi:type="notation:Shape" xmi:id="_bVobwZFNEeavtoK77XJO2g" type="IERelationship.ri" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_bVobwpFNEeavtoK77XJO2g"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_bVobwJFNEeavtoK77XJO2g" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_bVobw5FNEeavtoK77XJO2g" type="relationship.ie.child.cardinality.name">
+            <children xsi:type="notation:Shape" xmi:id="_bVobxZFNEeavtoK77XJO2g" type="IERelationship.childcardinalityname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_bVobxpFNEeavtoK77XJO2g"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_bVobxJFNEeavtoK77XJO2g" x="-265" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_bVobsZFNEeavtoK77XJO2g" fontName="Segoe UI" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_bVobspFNEeavtoK77XJO2g" points="[2466, -1511, -3183, 4205]$[3966, -3493, -1683, 2223]"/>
+          <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_bVyMsJFNEeavtoK77XJO2g" id="(1.0,0.35852156057494866)"/>
+        </edges>
+        <edges xmi:id="_dB8MgJFNEeavtoK77XJO2g" element="_c-XUEJFNEeavtoK77XJO2g" source="_losFIZB3EeaTwtCi7pQynA" target="_kAZRoJB3EeaTwtCi7pQynA">
+          <children xmi:id="_dB8Mg5FNEeavtoK77XJO2g" type="relationship.ie.name">
+            <children xsi:type="notation:Shape" xmi:id="_dB8MhZFNEeavtoK77XJO2g" type="IERelationship.name" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_dB8MhpFNEeavtoK77XJO2g"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_dB8MhJFNEeavtoK77XJO2g" y="-186"/>
+          </children>
+          <children xmi:id="_dB8Mh5FNEeavtoK77XJO2g" type="relationship.ie.child.name">
+            <children xsi:type="notation:Shape" xmi:id="_dB8MiZFNEeavtoK77XJO2g" type="IERelationship.childname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_dB8MipFNEeavtoK77XJO2g"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_dB8MiJFNEeavtoK77XJO2g" x="-661" y="-504"/>
+          </children>
+          <children xmi:id="_dB8Mi5FNEeavtoK77XJO2g" type="relationship.ie.parent.name">
+            <children xsi:type="notation:Shape" xmi:id="_dB8MjZFNEeavtoK77XJO2g" type="IERelationship.parentname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_dB8MjpFNEeavtoK77XJO2g"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_dB8MjJFNEeavtoK77XJO2g" y="-397"/>
+          </children>
+          <children xmi:id="_dB8Mj5FNEeavtoK77XJO2g" type="relationship.ie.ri">
+            <children xsi:type="notation:Shape" xmi:id="_dB8MkZFNEeavtoK77XJO2g" type="IERelationship.ri" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_dB8MkpFNEeavtoK77XJO2g"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_dB8MkJFNEeavtoK77XJO2g" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_dCFWcJFNEeavtoK77XJO2g" type="relationship.ie.child.cardinality.name">
+            <children xsi:type="notation:Shape" xmi:id="_dCFWcpFNEeavtoK77XJO2g" type="IERelationship.childcardinalityname" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_dCFWc5FNEeavtoK77XJO2g"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_dCFWcZFNEeavtoK77XJO2g" x="-265" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_dB8MgZFNEeavtoK77XJO2g" fontName="Segoe UI" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_dB8MgpFNEeavtoK77XJO2g" points="[342, 0, 73, 2776]$[342, -2194, 73, 582]"/>
+          <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_dCPHcJFNEeavtoK77XJO2g" id="(0.36558078315235276,0.0)"/>
+          <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_dCPHcZFNEeavtoK77XJO2g" id="(0.44265180404810794,0.8571814254859611)"/>
+        </edges>
+      </contents>
+    </eAnnotations>
+  </LogicalDataModel:Package>
+  <LogicalDataModel:Entity xmi:id="_gV7yEJB3EeaTwtCi7pQynA" name="Alumno" package="_aSGAUJB3EeaTwtCi7pQynA" relationshipEnds="_cGBUsZB6EeaTwtCi7pQynA _bQk8kpFNEeavtoK77XJO2g" relationships="_bQk8kJFNEeavtoK77XJO2g">
+    <attributes xmi:id="_yMMzkJB4EeaTwtCi7pQynA" name="idAlumno" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="__jfk0JB4EeaTwtCi7pQynA" name="dni" dataType="VARCHAR(8)" required="true"/>
+    <attributes xmi:id="_OJWa8JB5EeaTwtCi7pQynA" name="apellido_materno" dataType="VARCHAR(45)" required="true"/>
+    <attributes xmi:id="__9YrgJB4EeaTwtCi7pQynA" name="apellido_paterno" dataType="VARCHAR(45)" required="true"/>
+    <attributes xmi:id="_BWM4kJB5EeaTwtCi7pQynA" name="nombre" dataType="VARCHAR(50)" required="true"/>
+    <attributes xmi:id="_RS8CEJB5EeaTwtCi7pQynA" name="usuario" dataType="VARCHAR(30)" required="true"/>
+    <attributes xmi:id="_SHAjUJB5EeaTwtCi7pQynA" name="contrasenia" dataType="VARCHAR(30)" required="true"/>
+    <attributes xmi:id="_S130cJB5EeaTwtCi7pQynA" name="codigo_universitario" dataType="VARCHAR(8)" required="true" dataTypeQualifier=""/>
+    <attributes xmi:id="_bQk8lJFNEeavtoK77XJO2g" name="idEscuela" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_yMV9gJB4EeaTwtCi7pQynA" name="Alumno_PK" attributes="_yMMzkJB4EeaTwtCi7pQynA" relationshipEnds="_cGBUsZB6EeaTwtCi7pQynA"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_bQk8k5FNEeavtoK77XJO2g" name="ForeignKey" attributes="_bQk8lJFNEeavtoK77XJO2g" relationshipEnds="_bQk8kpFNEeavtoK77XJO2g"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_kAQHsJB3EeaTwtCi7pQynA" name="Administrador" package="_aSGAUJB3EeaTwtCi7pQynA" relationshipEnds="_c-XUEpFNEeavtoK77XJO2g" relationships="_c-XUEJFNEeavtoK77XJO2g">
+    <attributes xmi:id="_w_4KYJB4EeaTwtCi7pQynA" name="idAdministrador" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_7lZXkJB4EeaTwtCi7pQynA" name="dni" dataType="VARCHAR(8)" required="true"/>
+    <attributes xmi:id="_8pFpMJB4EeaTwtCi7pQynA" name="apellido_paterno" dataType="VARCHAR(45)" required="true"/>
+    <attributes xmi:id="_GBY1UJB5EeaTwtCi7pQynA" name="apellido_materno" dataType="VARCHAR(45)" required="true"/>
+    <attributes xmi:id="_9LADcJB4EeaTwtCi7pQynA" name="nombre" dataType="VARCHAR(50)" required="true"/>
+    <attributes xmi:id="_9qZVMJB4EeaTwtCi7pQynA" name="usuario" dataType="VARCHAR(40)" required="true"/>
+    <attributes xmi:id="_-Lt5kJB4EeaTwtCi7pQynA" name="contrasenia" dataType="VARCHAR(40)" required="true"/>
+    <attributes xmi:id="_c-hFEZFNEeavtoK77XJO2g" name="idEscuela" dataType="INTEGER" surrogateKey="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_xAeAQJB4EeaTwtCi7pQynA" name="Administrador_PK" attributes="_w_4KYJB4EeaTwtCi7pQynA"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_c-hFEJFNEeavtoK77XJO2g" name="ForeignKey" attributes="_c-hFEZFNEeavtoK77XJO2g" relationshipEnds="_c-XUEpFNEeavtoK77XJO2g"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_losFIJB3EeaTwtCi7pQynA" name="Escuela" package="_aSGAUJB3EeaTwtCi7pQynA" relationshipEnds="_ERPQ4pB6EeaTwtCi7pQynA _bQk8kZFNEeavtoK77XJO2g _c-XUEZFNEeavtoK77XJO2g" relationships="_ERPQ4JB6EeaTwtCi7pQynA">
+    <attributes xmi:id="_4PdWgJB4EeaTwtCi7pQynA" name="idEscuela" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_6kX_cJB4EeaTwtCi7pQynA" name="detalle" dataType="VARCHAR(60)" required="true"/>
+    <attributes xmi:id="_WIO9EJB5EeaTwtCi7pQynA" name="numero" dataType="VARCHAR(3)"/>
+    <attributes xmi:id="_ERiL0ZB6EeaTwtCi7pQynA" name="idFacultad" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_4PmgcpB4EeaTwtCi7pQynA" name="Escuela_PK" attributes="_4PdWgJB4EeaTwtCi7pQynA" relationshipEnds="_bQk8kZFNEeavtoK77XJO2g _c-XUEZFNEeavtoK77XJO2g"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_ERiL0JB6EeaTwtCi7pQynA" name="ForeignKey" attributes="_ERiL0ZB6EeaTwtCi7pQynA" relationshipEnds="_ERPQ4pB6EeaTwtCi7pQynA"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_mmuasJB3EeaTwtCi7pQynA" name="Facultad" package="_aSGAUJB3EeaTwtCi7pQynA" relationshipEnds="_ERPQ4ZB6EeaTwtCi7pQynA">
+    <attributes xmi:id="_4zTqcJB4EeaTwtCi7pQynA" name="idFacultad" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_Z3dn4JB5EeaTwtCi7pQynA" name="detalle" dataType="VARCHAR(70)" required="true"/>
+    <attributes xmi:id="_a47E4JB5EeaTwtCi7pQynA" name="numero" dataType="VARCHAR(3)"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_4zdbcpB4EeaTwtCi7pQynA" name="Facultad_PK" attributes="_4zTqcJB4EeaTwtCi7pQynA" relationshipEnds="_ERPQ4ZB6EeaTwtCi7pQynA"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_OqpmoJB4EeaTwtCi7pQynA" name="Ticket" package="_aSGAUJB3EeaTwtCi7pQynA" relationshipEnds="_cGBUspB6EeaTwtCi7pQynA _A5_y0pB7EeaTwtCi7pQynA _5zWG8pB_EeaTwtCi7pQynA" relationships="_cGBUsJB6EeaTwtCi7pQynA _A5_y0JB7EeaTwtCi7pQynA _5zWG8JB_EeaTwtCi7pQynA">
+    <attributes xmi:id="_jUOdQJB5EeaTwtCi7pQynA" name="idTicket" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_kCf4gJB5EeaTwtCi7pQynA" name="estado" description="Puede ser de 3 tipos:&#xD;&#xA;- Reservado      (R)&#xD;&#xA;- Atendido        (A)&#xD;&#xA;- No_atendido (N)" dataType="CHAR(1)" defaultValue="R" required="true" dataTypeQualifier=""/>
+    <attributes xmi:id="_lKrzIJB6EeaTwtCi7pQynA" name="idAlumno" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <attributes xmi:id="_A6Jj0ZB7EeaTwtCi7pQynA" name="idProgramacion" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <attributes xmi:id="_5zf38JB_EeaTwtCi7pQynA" name="idTurno" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_jUYOQJB5EeaTwtCi7pQynA" name="Ticket_PK" attributes="_jUOdQJB5EeaTwtCi7pQynA"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_lKPHMJB6EeaTwtCi7pQynA" name="ForeignKey1" attributes="_lKrzIJB6EeaTwtCi7pQynA" relationshipEnds="_cGBUspB6EeaTwtCi7pQynA"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_A6Jj0JB7EeaTwtCi7pQynA" name="ForeignKey" attributes="_A6Jj0ZB7EeaTwtCi7pQynA" relationshipEnds="_A5_y0pB7EeaTwtCi7pQynA"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_5zWG85B_EeaTwtCi7pQynA" name="ForeignKey2" attributes="_5zf38JB_EeaTwtCi7pQynA" relationshipEnds="_5zWG8pB_EeaTwtCi7pQynA"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_rfSPoJB4EeaTwtCi7pQynA" name="Comida" package="_aSGAUJB3EeaTwtCi7pQynA" relationshipEnds="_w5kmsZB7EeaTwtCi7pQynA _zl_wsZB7EeaTwtCi7pQynA _0xbpEZB7EeaTwtCi7pQynA">
+    <eAnnotations xmi:id="_Cw-ycJFTEeavtoK77XJO2g" source="UDP"/>
+    <attributes xmi:id="_hi3bEJB-EeaTwtCi7pQynA" name="idComida" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_u9rFQJB8EeaTwtCi7pQynA" name="detalle" dataType="VARCHAR(10)" required="true"/>
+    <attributes xmi:id="_wGbdEJB8EeaTwtCi7pQynA" name="raciones" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_xFzPYJB8EeaTwtCi7pQynA" name="nivel1" dataType="BOOLEAN" required="true"/>
+    <attributes xmi:id="_yjhxoJB8EeaTwtCi7pQynA" name="nivel2" dataType="BOOLEAN" required="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_hjKWAJB-EeaTwtCi7pQynA" name="Comida_PK" attributes="_hi3bEJB-EeaTwtCi7pQynA" relationshipEnds="_w5kmsZB7EeaTwtCi7pQynA _zl_wsZB7EeaTwtCi7pQynA _0xbpEZB7EeaTwtCi7pQynA"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_uTAUcJB4EeaTwtCi7pQynA" name="Pro" package="_aSGAUJB3EeaTwtCi7pQynA"/>
+  <LogicalDataModel:Entity xmi:id="_3rLvUJB5EeaTwtCi7pQynA" name="Programacion" package="_aSGAUJB3EeaTwtCi7pQynA" relationshipEnds="_A5_y0ZB7EeaTwtCi7pQynA _fXFAUpB7EeaTwtCi7pQynA _0xbpEpB7EeaTwtCi7pQynA _OAIbQZB-EeaTwtCi7pQynA" relationships="_fXFAUJB7EeaTwtCi7pQynA _0xbpEJB7EeaTwtCi7pQynA">
+    <attributes xmi:id="__DkcsJB6EeaTwtCi7pQynA" name="idProgramacion" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_NlGzgJB7EeaTwtCi7pQynA" name="fecha" dataType="DATE"/>
+    <attributes xmi:id="_qjgUEJFNEeavtoK77XJO2g" name="raciones" dataType="INTEGER" derived="true"/>
+    <attributes xmi:id="_fXOKQZB7EeaTwtCi7pQynA" name="idTurno" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <attributes xmi:id="_a2ZIsJFSEeavtoK77XJO2g" name="idComida" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="__Dkcs5B6EeaTwtCi7pQynA" name="Programacion_PK" attributes="__DkcsJB6EeaTwtCi7pQynA" relationshipEnds="_A5_y0ZB7EeaTwtCi7pQynA _OAIbQZB-EeaTwtCi7pQynA"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_fXOKQJB7EeaTwtCi7pQynA" name="ForeignKey" attributes="_fXOKQZB7EeaTwtCi7pQynA" relationshipEnds="_fXFAUpB7EeaTwtCi7pQynA"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_0xbpE5B7EeaTwtCi7pQynA" name="ForeignKey1" attributes="_a2ZIsJFSEeavtoK77XJO2g" relationshipEnds="_0xbpEpB7EeaTwtCi7pQynA"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Relationship xmi:id="_ERPQ4JB6EeaTwtCi7pQynA" name="Escuela_Facultad_FK" relationshipType="NON_IDENTIFYING" owningEntity="_losFIJB3EeaTwtCi7pQynA">
+    <relationshipEnds xmi:id="_ERPQ4ZB6EeaTwtCi7pQynA" cardinality="ONE" entity="_mmuasJB3EeaTwtCi7pQynA" key="_4zdbcpB4EeaTwtCi7pQynA"/>
+    <relationshipEnds xmi:id="_ERPQ4pB6EeaTwtCi7pQynA" verbPhrase="tiene" cardinality="ZERO_TO_MANY" entity="_losFIJB3EeaTwtCi7pQynA" key="_ERiL0JB6EeaTwtCi7pQynA"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Entity xmi:id="_SBiYAJB6EeaTwtCi7pQynA" name="Turno" package="_aSGAUJB3EeaTwtCi7pQynA" relationshipEnds="_fXFAUZB7EeaTwtCi7pQynA _w5kmspB7EeaTwtCi7pQynA _5zWG8ZB_EeaTwtCi7pQynA" relationships="_w5kmsJB7EeaTwtCi7pQynA">
+    <attributes xmi:id="_UVce4JB7EeaTwtCi7pQynA" name="idTurno" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_hjnB8JB-EeaTwtCi7pQynA" name="idComida" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <attributes xmi:id="_QMB_IJFPEeavtoK77XJO2g" name="hora_inicio" dataType="TIME" required="true"/>
+    <attributes xmi:id="_RPauwJFPEeavtoK77XJO2g" name="hora_fin" dataType="TIME" required="true"/>
+    <attributes xmi:id="_TqcmwJFPEeavtoK77XJO2g" name="numero" dataType="CHAR(1)" required="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_UVmP4JB7EeaTwtCi7pQynA" name="Turno_PK" attributes="_UVce4JB7EeaTwtCi7pQynA" relationshipEnds="_fXFAUZB7EeaTwtCi7pQynA _5zWG8ZB_EeaTwtCi7pQynA"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_w5kms5B7EeaTwtCi7pQynA" name="ForeignKey" attributes="_hjnB8JB-EeaTwtCi7pQynA" relationshipEnds="_w5kmspB7EeaTwtCi7pQynA"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Relationship xmi:id="_cGBUsJB6EeaTwtCi7pQynA" name="Ticket_Alumno_FK" relationshipType="NON_IDENTIFYING" owningEntity="_OqpmoJB4EeaTwtCi7pQynA">
+    <relationshipEnds xmi:id="_cGBUsZB6EeaTwtCi7pQynA" cardinality="ONE" entity="_gV7yEJB3EeaTwtCi7pQynA" key="_yMV9gJB4EeaTwtCi7pQynA"/>
+    <relationshipEnds xmi:id="_cGBUspB6EeaTwtCi7pQynA" verbPhrase="separa" cardinality="ZERO_TO_MANY" entity="_OqpmoJB4EeaTwtCi7pQynA" key="_lKPHMJB6EeaTwtCi7pQynA"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Relationship xmi:id="_A5_y0JB7EeaTwtCi7pQynA" name="Ticket_Programacion_FK" relationshipType="NON_IDENTIFYING" owningEntity="_OqpmoJB4EeaTwtCi7pQynA">
+    <relationshipEnds xmi:id="_A5_y0ZB7EeaTwtCi7pQynA" cardinality="ONE" entity="_3rLvUJB5EeaTwtCi7pQynA" key="__Dkcs5B6EeaTwtCi7pQynA"/>
+    <relationshipEnds xmi:id="_A5_y0pB7EeaTwtCi7pQynA" verbPhrase="se asocia con" cardinality="ZERO_TO_MANY" entity="_OqpmoJB4EeaTwtCi7pQynA" key="_A6Jj0JB7EeaTwtCi7pQynA"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Relationship xmi:id="_fXFAUJB7EeaTwtCi7pQynA" name="Programacion_Turno_FK" relationshipType="NON_IDENTIFYING" owningEntity="_3rLvUJB5EeaTwtCi7pQynA">
+    <relationshipEnds xmi:id="_fXFAUZB7EeaTwtCi7pQynA" cardinality="ONE" entity="_SBiYAJB6EeaTwtCi7pQynA" key="_UVmP4JB7EeaTwtCi7pQynA"/>
+    <relationshipEnds xmi:id="_fXFAUpB7EeaTwtCi7pQynA" verbPhrase="se asocia con" cardinality="ZERO_TO_MANY" entity="_3rLvUJB5EeaTwtCi7pQynA" key="_fXOKQJB7EeaTwtCi7pQynA"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Entity xmi:id="_pDwhAJB7EeaTwtCi7pQynA" name="Plato" package="_aSGAUJB3EeaTwtCi7pQynA" relationshipEnds="_BzNycZB-EeaTwtCi7pQynA">
+    <attributes xmi:id="_1tx1MJB-EeaTwtCi7pQynA" name="idPlato" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_YWXjUJFPEeavtoK77XJO2g" name="detalle" dataType="VARCHAR(40)" required="true"/>
+    <attributes xmi:id="_I5AT8JB_EeaTwtCi7pQynA" name="tipo" dataType="CHAR(1)"/>
+    <attributes xmi:id="_RAFIwJB_EeaTwtCi7pQynA" name="energía" dataType="DOUBLE"/>
+    <attributes xmi:id="_R1Ca0JB_EeaTwtCi7pQynA" name="proteinas" dataType="DOUBLE"/>
+    <attributes xmi:id="_XZp58JB_EeaTwtCi7pQynA" name="hierro" dataType="DOUBLE"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_1t6_IJB-EeaTwtCi7pQynA" name="Plato_PK" attributes="_1tx1MJB-EeaTwtCi7pQynA" relationshipEnds="_BzNycZB-EeaTwtCi7pQynA"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_qOAGkJB7EeaTwtCi7pQynA" name="Detalle_Registro" package="_aSGAUJB3EeaTwtCi7pQynA" relationshipEnds="_zl_wspB7EeaTwtCi7pQynA _S7rIMpB-EeaTwtCi7pQynA" relationships="_zl_wsJB7EeaTwtCi7pQynA _S7rIMJB-EeaTwtCi7pQynA">
+    <attributes xmi:id="_b0npYJB_EeaTwtCi7pQynA" name="raciones" dataType="INTEGER" derived="true"/>
+    <attributes xmi:id="_c_mOwJB_EeaTwtCi7pQynA" name="idDetalleRegistro" dataType="CHAR(5)" required="true"/>
+    <attributes xmi:id="_hkpjwJB-EeaTwtCi7pQynA" name="idComida" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <attributes xmi:id="_fmhNsJB_EeaTwtCi7pQynA" name="idRegistro" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_zl_ws5B7EeaTwtCi7pQynA" name="ForeignKey" attributes="_hkpjwJB-EeaTwtCi7pQynA" relationshipEnds="_zl_wspB7EeaTwtCi7pQynA"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_S7rIM5B-EeaTwtCi7pQynA" name="ForeignKey1" attributes="_fmhNsJB_EeaTwtCi7pQynA" relationshipEnds="_S7rIMpB-EeaTwtCi7pQynA"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_c_v_wJB_EeaTwtCi7pQynA" name="Detalle_Registro_PK" attributes="_c_mOwJB_EeaTwtCi7pQynA"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_rpf0MJB7EeaTwtCi7pQynA" name="Registro" package="_aSGAUJB3EeaTwtCi7pQynA" relationshipEnds="_S7rIMZB-EeaTwtCi7pQynA">
+    <attributes xmi:id="_fmFI0JB_EeaTwtCi7pQynA" name="idRegistro" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_sYoOQJB_EeaTwtCi7pQynA" name="fecha_inicio" dataType="DATE" required="true"/>
+    <attributes xmi:id="_th-b8JB_EeaTwtCi7pQynA" name="fecha_fin" dataType="DATE" defaultValue="CURRENT_DATE" required="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_fmOSwJB_EeaTwtCi7pQynA" name="Registro_PK" attributes="_fmFI0JB_EeaTwtCi7pQynA" relationshipEnds="_S7rIMZB-EeaTwtCi7pQynA"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Relationship xmi:id="_w5kmsJB7EeaTwtCi7pQynA" name="Turno_Comida_FK" relationshipType="NON_IDENTIFYING" owningEntity="_SBiYAJB6EeaTwtCi7pQynA">
+    <relationshipEnds xmi:id="_w5kmsZB7EeaTwtCi7pQynA" cardinality="ONE" entity="_rfSPoJB4EeaTwtCi7pQynA" key="_hjKWAJB-EeaTwtCi7pQynA"/>
+    <relationshipEnds xmi:id="_w5kmspB7EeaTwtCi7pQynA" verbPhrase="tiene" cardinality="ZERO_TO_MANY" entity="_SBiYAJB6EeaTwtCi7pQynA" key="_w5kms5B7EeaTwtCi7pQynA"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Relationship xmi:id="_zl_wsJB7EeaTwtCi7pQynA" name="Detalle_Registro_Comida_FK" relationshipType="NON_IDENTIFYING" owningEntity="_qOAGkJB7EeaTwtCi7pQynA">
+    <relationshipEnds xmi:id="_zl_wsZB7EeaTwtCi7pQynA" cardinality="ONE" entity="_rfSPoJB4EeaTwtCi7pQynA" key="_hjKWAJB-EeaTwtCi7pQynA"/>
+    <relationshipEnds xmi:id="_zl_wspB7EeaTwtCi7pQynA" verbPhrase="especifica" cardinality="ZERO_TO_MANY" entity="_qOAGkJB7EeaTwtCi7pQynA" key="_zl_ws5B7EeaTwtCi7pQynA"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Relationship xmi:id="_0xbpEJB7EeaTwtCi7pQynA" name="Programacion_Comida_FK" relationshipType="NON_IDENTIFYING" owningEntity="_3rLvUJB5EeaTwtCi7pQynA">
+    <relationshipEnds xmi:id="_0xbpEZB7EeaTwtCi7pQynA" cardinality="ONE" entity="_rfSPoJB4EeaTwtCi7pQynA" key="_hjKWAJB-EeaTwtCi7pQynA"/>
+    <relationshipEnds xmi:id="_0xbpEpB7EeaTwtCi7pQynA" verbPhrase="pertenece" cardinality="ZERO_TO_MANY" entity="_3rLvUJB5EeaTwtCi7pQynA" key="_0xbpE5B7EeaTwtCi7pQynA"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Entity xmi:id="_FIFR8JB9EeaTwtCi7pQynA" name="ProgramacionPlato" package="_aSGAUJB3EeaTwtCi7pQynA" relationshipEnds="_BzNycpB-EeaTwtCi7pQynA _OAIbQpB-EeaTwtCi7pQynA" relationships="_BzNycJB-EeaTwtCi7pQynA _OAIbQJB-EeaTwtCi7pQynA">
+    <attributes xmi:id="_pQh04JB_EeaTwtCi7pQynA" name="idProgramacionPlato" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_OAIbRJB-EeaTwtCi7pQynA" name="idProgramacion" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <attributes xmi:id="_1uN6EJB-EeaTwtCi7pQynA" name="idPlato" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_BzNyc5B-EeaTwtCi7pQynA" name="ForeignKey" attributes="_1uN6EJB-EeaTwtCi7pQynA" relationshipEnds="_BzNycpB-EeaTwtCi7pQynA"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_OAIbQ5B-EeaTwtCi7pQynA" name="ForeignKey1" attributes="_OAIbRJB-EeaTwtCi7pQynA" relationshipEnds="_OAIbQpB-EeaTwtCi7pQynA"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_pQ0v0JB_EeaTwtCi7pQynA" name="ProgramacionPlato_PK" attributes="_pQh04JB_EeaTwtCi7pQynA"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Relationship xmi:id="_BzNycJB-EeaTwtCi7pQynA" name="ProgramacionPlato_Plato_FK" relationshipType="NON_IDENTIFYING" owningEntity="_FIFR8JB9EeaTwtCi7pQynA">
+    <relationshipEnds xmi:id="_BzNycZB-EeaTwtCi7pQynA" cardinality="ONE" entity="_pDwhAJB7EeaTwtCi7pQynA" key="_1t6_IJB-EeaTwtCi7pQynA"/>
+    <relationshipEnds xmi:id="_BzNycpB-EeaTwtCi7pQynA" verbPhrase="relaciona" cardinality="ZERO_TO_MANY" entity="_FIFR8JB9EeaTwtCi7pQynA" key="_BzNyc5B-EeaTwtCi7pQynA"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Relationship xmi:id="_OAIbQJB-EeaTwtCi7pQynA" name="ProgramacionPlato_Programacion_FK" relationshipType="NON_IDENTIFYING" owningEntity="_FIFR8JB9EeaTwtCi7pQynA">
+    <relationshipEnds xmi:id="_OAIbQZB-EeaTwtCi7pQynA" cardinality="ONE" entity="_3rLvUJB5EeaTwtCi7pQynA" key="__Dkcs5B6EeaTwtCi7pQynA"/>
+    <relationshipEnds xmi:id="_OAIbQpB-EeaTwtCi7pQynA" verbPhrase="relaciona" cardinality="ZERO_TO_MANY" entity="_FIFR8JB9EeaTwtCi7pQynA" key="_OAIbQ5B-EeaTwtCi7pQynA"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Relationship xmi:id="_S7rIMJB-EeaTwtCi7pQynA" name="Detalle_Registro_Registro_FK" relationshipType="NON_IDENTIFYING" owningEntity="_qOAGkJB7EeaTwtCi7pQynA">
+    <relationshipEnds xmi:id="_S7rIMZB-EeaTwtCi7pQynA" cardinality="ONE" entity="_rpf0MJB7EeaTwtCi7pQynA" key="_fmOSwJB_EeaTwtCi7pQynA"/>
+    <relationshipEnds xmi:id="_S7rIMpB-EeaTwtCi7pQynA" verbPhrase="tiene" cardinality="ZERO_TO_MANY" entity="_qOAGkJB7EeaTwtCi7pQynA" key="_S7rIM5B-EeaTwtCi7pQynA"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Relationship xmi:id="_5zWG8JB_EeaTwtCi7pQynA" name="Ticket_Turno_FK" relationshipType="NON_IDENTIFYING" owningEntity="_OqpmoJB4EeaTwtCi7pQynA">
+    <relationshipEnds xmi:id="_5zWG8ZB_EeaTwtCi7pQynA" cardinality="ONE" entity="_SBiYAJB6EeaTwtCi7pQynA" key="_UVmP4JB7EeaTwtCi7pQynA"/>
+    <relationshipEnds xmi:id="_5zWG8pB_EeaTwtCi7pQynA" verbPhrase="tiene" cardinality="ZERO_TO_MANY" entity="_OqpmoJB4EeaTwtCi7pQynA" key="_5zWG85B_EeaTwtCi7pQynA"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Relationship xmi:id="_bQk8kJFNEeavtoK77XJO2g" name="Alumno_Escuela_FK" relationshipType="NON_IDENTIFYING" owningEntity="_gV7yEJB3EeaTwtCi7pQynA">
+    <relationshipEnds xmi:id="_bQk8kZFNEeavtoK77XJO2g" cardinality="ONE" entity="_losFIJB3EeaTwtCi7pQynA" key="_4PmgcpB4EeaTwtCi7pQynA"/>
+    <relationshipEnds xmi:id="_bQk8kpFNEeavtoK77XJO2g" verbPhrase="tiene" cardinality="ZERO_TO_MANY" entity="_gV7yEJB3EeaTwtCi7pQynA" key="_bQk8k5FNEeavtoK77XJO2g"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Relationship xmi:id="_c-XUEJFNEeavtoK77XJO2g" name="Administrador_Escuela_FK" relationshipType="NON_IDENTIFYING" existenceOptional="true" owningEntity="_kAQHsJB3EeaTwtCi7pQynA">
+    <relationshipEnds xmi:id="_c-XUEZFNEeavtoK77XJO2g" entity="_losFIJB3EeaTwtCi7pQynA" key="_4PmgcpB4EeaTwtCi7pQynA"/>
+    <relationshipEnds xmi:id="_c-XUEpFNEeavtoK77XJO2g" verbPhrase="tiene" cardinality="ZERO_TO_MANY" entity="_kAQHsJB3EeaTwtCi7pQynA" key="_c-hFEJFNEeavtoK77XJO2g"/>
+  </LogicalDataModel:Relationship>
+</xmi:XMI>
