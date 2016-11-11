@@ -386,6 +386,70 @@ INSERT INTO Turno (idTurno,idComida,hora_inicio,hora_fin,numero)
 INSERT INTO Turno (idTurno,idComida,hora_inicio,hora_fin,numero)
  VALUES (7,3,'17:30:00','17:59:00',2);
  
- 
+
+
+-- ========================================
+-- Programacion (fecha,idComida)
+-- ========================================
+-- TRUNCATE TABLE Programacion;
+insert into programacion (fecha,idComida)
+values ('2016-10-20',1);
+
+insert into programacion (fecha,idComida)
+values ('2016-10-20',2);
+
+insert into programacion (fecha,idComida)
+values ('2016-10-20',3);
+
+insert into programacion (fecha,idComida)
+values ('2016-10-21',1);
+
+insert into programacion (fecha,idComida)
+values ('2016-10-21',2);
+
+insert into programacion (fecha,idComida)
+values ('2016-10-21',3);
+
+insert into programacion (fecha,idComida)
+values ('2016-10-22',1);
+
+insert into programacion (fecha,idComida)
+values ('2016-10-22',2);
+
+insert into programacion (fecha,idComida)
+values ('2016-10-22',3);
+
+insert into programacion (fecha,idComida)
+values ('2016-10-23',1);
+
+insert into programacion (fecha,idComida)
+values ('2016-10-23',2);
+
+insert into programacion (fecha,idComida)
+values ('2016-10-23',3);
+
+insert into programacion (fecha,idComida)
+values ('2016-10-24',1);
+
+insert into programacion (fecha,idComida)
+values ('2016-10-24',2);
+
+insert into programacion (fecha,idComida)
+values ('2016-10-24',3);
+
+insert into programacion (fecha,idComida)
+values ('2016-10-25',1);
+
+insert into programacion (fecha,idComida)
+values ('2016-10-25',2);
+
+insert into programacion (fecha,idComida)
+values ('2016-10-25',3);
+
+insert into programacion (fecha,idComida)
+values ('2016-10-26',1);
+
+
+
 -- INSERT INTO seq_registro()
 -- values ();
