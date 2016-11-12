@@ -44,7 +44,7 @@ CREATE VIEW Pan AS
 /*======================
 -- consulta (login) de administrador
   ====================*/
-DROP PROCEDURE IF EXISTS p_login_admin;
+/*DROP PROCEDURE IF EXISTS p_login_admin;
 DELIMITER $$
 CREATE DEFINER=`root`@`localhost` PROCEDURE `p_login_admin`(
 	IN adm_usuario VARCHAR(40),
@@ -57,7 +57,7 @@ BEGIN
 END$$
 DELIMITER ;
 
--- call p_login_admin('ROOT','ROOT');
+-- call p_login_admin('ROOT','ROOT');*/
 
 
 
@@ -72,7 +72,7 @@ DELIMITER ;
 -- Log in de Alumno
 -- consulta de usuario y contraseña de la misma fila que sean iguales a un par dado
   ====================*/
-DROP PROCEDURE IF EXISTS p_login;
+/*DROP PROCEDURE IF EXISTS p_login;
 DELIMITER $$
 CREATE DEFINER=`root`@`localhost` PROCEDURE `p_login`(
 	IN alu_codigo VARCHAR(8),
@@ -85,7 +85,7 @@ BEGIN
 END$$
 DELIMITER ;
 
--- call p_login('14200180','letmein1234');
+-- call p_login('14200180','letmein1234');*/
 
 
 /*======================
@@ -406,5 +406,18 @@ BEGIN
 
   WHERE idAdministrador=pidAdmin;
 
+END $$
+DELIMITER ;
+
+-- LOGIN ADMINISTRADOR
+DROP PROCEDURE IF EXISTS p_login;
+DELIMITER $$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `p_login`( in pusuario VARCHAR(40)  ,
+   IN pcontrasenia   VARCHAR(40) 
+)
+BEGIN
+ SELECT *
+ FROM Administrador
+ WHERE usuario =pusuario and contrasenia=pcontrasenia  ;
 END $$
 DELIMITER ;
