@@ -97,43 +97,4 @@ delimiter ;
 
 
 
--- ========================================
--- Iniciar el registro de las comidas para dar auditoria
--- ========================================
- -- procedimiento que ayudara
-/*
-DROP PROCEDURE IF EXISTS p_insert_registro;
-DELIMITER $$
-CREATE DEFINER=`root`@`localhost` PROCEDURE p_insert_registro(
-	IN r_raciones		 INT,
-    IN r_idComida		 INT
-)
-BEGIN
-	update seq_registro set curval=curval+1 where id=1;
-    INSERT INTO Registro(idRegistro,raciones,idComida,fecha_inicio)
-     VALUES ((select curval from seq_registro),r_raciones,r_idComida,curdate());
-END$$
-DELIMITER ;
 
-DROP TRIGGER IF EXISTS t_dar_auditoria_insert;
-
-delimiter //
-create trigger t_dar_auditoria_insert after insert on comida
-for each row 
-begin
-	call p_insert_registro(new.raciones,new.idComida);
-end;//
-delimiter ;
-
-
-DROP TRIGGER IF EXISTS t_dar_auditoria_update;
-
-delimiter //
-create trigger t_dar_auditoria_update after update on comida
-for each row 
-begin
-	update registro set r_fecha_fin=curdate() where idregistro=(select curval from seq_registro where id=1);
-    call p_insert_registro(new.raciones,new.idComida);
-end;//
-delimiter ;
-*/

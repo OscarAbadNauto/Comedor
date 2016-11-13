@@ -223,149 +223,6 @@ INSERT INTO ComidaNivel (idComida,nivel)
  VALUES (3,1);
 
 
- 
--- ========================================
--- Plato ( detalle,tipo,energia,proteinas,hierro)
--- ========================================
--- TRUNCATE TABLE Plato;
-INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
-
- VALUES ('Sopa sustancia','E',201,4.5,0.4);
-
-INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
-
- VALUES ('Caldillo de huevos','E',350,10.3,3.6);
- 
-INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
-
- VALUES ('Sopa de Pescado','E',400,12.5,4.0);
- 
-INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
-
- VALUES ('Sopa de Casa','E',300,10.2,2.6);
- 
-INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
-
- VALUES ('Sopa a la minuta','E',350,9.5,2.5);
- 
-INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
-
- VALUES ('Sopa de moron','E',420,12.5,3.6);
-
-INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
-
- VALUES ('Arroz con Garbanzos guisados','S',201,4.5,0.4);
- 
-INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
-
- VALUES ('Arroz chaufa','S',320,20.5,5.6);
- 
-INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
-
- VALUES ('Arroz pallares guisados','S',400,23.6,5.4);
-
-INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
-
- VALUES ('Tallarin rojo con pollo','S',320,24.7,4.2);
- 
-INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
-
- VALUES ('Guiso de quinua','S',430,26.5,3.8);
- 
-INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
-
- VALUES ('Carapulcra con cerdo','S',410,27.8,3.2);
-
-INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
-
- VALUES ('Refresco de cocona','R',201,4.5,0.4);
- 
-INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
-
- VALUES ('Refrezco de manzana','R',150,3.5,0.3);
- 
-INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
-
- VALUES ('Refresco de pina','R',170,3.7,0.2);
-  
-INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
-
- VALUES ('Refresco de membrillo','R',180,4.3,0.3);
-  
-INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
-
- VALUES ('Refresco de carambola','R',160,4.0,0.1);
-
-INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
-
- VALUES ('Refresco de maracuya','R',190,1.2,0.2);
-
-INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
-
- VALUES ('Avena con Manzana','B',201,4.5,0.4);
-
-INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
-
- VALUES ('Avena con Membrillo','B',198,5.4,0.4);
-
-INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
-
- VALUES ('Avena con Chocolate','B',250,4.3,0.6);
-
-INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
-
- VALUES ('Quinua con pina','B',240,3.5,0.7);
-
-INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
-
- VALUES ('Ponche de Habas','B',210,2.5,0.6);
-
-INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
-
- VALUES ('Quinua con leche','B',200,2.5,0.8);
-
-INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
-
- VALUES ('Pan con queso fresco','P',201,4.5,0.4);
-
-INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
-
- VALUES ('Pan con camote','P',198,4.0,0.8);
-
-INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
-
- VALUES ('Pan con aceituna','P',200,3.0,0.6);
-
-INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
-
- VALUES ('Pan con mermelada','P',200,4.0,0.4);
-
-INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
-
- VALUES ('Pan con manjar blanco','P',250,3.0,0.6);
-
-INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
-
- VALUES ('Pan con pate','P',170,3.0,0.8);
-
-INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
-
- VALUES ('Fruta','F',201,4.5,0.4);
-
-INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
-
- VALUES ('Manzana','F',59,0.5,0.3);
-INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
-
- VALUES ('platano','F',105,1.3,0.6);
-
-INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
-
- VALUES ('Mandarina','F',45,0.6,0.3);
-
-
-
-
 -- ========================================
 -- Turno (idTurno,hora_inicio,hora_fin,numero)
 -- ========================================
@@ -385,71 +242,131 @@ INSERT INTO Turno (idTurno,idComida,hora_inicio,hora_fin,numero)
  VALUES (6,3,'17:00:00','17:29:00',1);
 INSERT INTO Turno (idTurno,idComida,hora_inicio,hora_fin,numero)
  VALUES (7,3,'17:30:00','17:59:00',2);
+
+
+
+-- ========================================
+-- Plato ( detalle,tipo,energia,proteinas,hierro)
+-- ========================================
+-- TRUNCATE TABLE Plato;
+INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
+ VALUES ('Sopa sustancia','E',201,4.5,0.4);
+
+INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
+ VALUES ('Caldillo de huevos','E',350,10.3,3.6);
  
+INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
+ VALUES ('Sopa de Pescado','E',400,12.5,4.0);
+ 
+INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
+ VALUES ('Sopa de Casa','E',300,10.2,2.6);
+ 
+INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
+ VALUES ('Sopa a la minuta','E',350,9.5,2.5);
+ 
+INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
+ VALUES ('Sopa de moron','E',420,12.5,3.6);
+
+INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
+ VALUES ('Arroz con Garbanzos guisados','S',201,4.5,0.4);
+ 
+INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
+ VALUES ('Arroz chaufa','S',320,20.5,5.6);
+ 
+INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
+ VALUES ('Arroz pallares guisados','S',400,23.6,5.4);
+
+INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
+ VALUES ('Tallarin rojo con pollo','S',320,24.7,4.2);
+ 
+INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
+ VALUES ('Guiso de quinua','S',430,26.5,3.8);
+ 
+INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
+ VALUES ('Carapulcra con cerdo','S',410,27.8,3.2);
+
+INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
+ VALUES ('Refresco de cocona','R',201,4.5,0.4);
+ 
+INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
+ VALUES ('Refrezco de manzana','R',150,3.5,0.3);
+ 
+INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
+ VALUES ('Refresco de pina','R',170,3.7,0.2);
+  
+INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
+ VALUES ('Refresco de membrillo','R',180,4.3,0.3);
+  
+INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
+ VALUES ('Refresco de carambola','R',160,4.0,0.1);
+
+INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
+ VALUES ('Refresco de maracuya','R',190,1.2,0.2);
+
+INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
+ VALUES ('Avena con Manzana','B',201,4.5,0.4);
+
+INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
+ VALUES ('Avena con Membrillo','B',198,5.4,0.4);
+
+INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
+ VALUES ('Avena con Chocolate','B',250,4.3,0.6);
+
+INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
+ VALUES ('Quinua con pina','B',240,3.5,0.7);
+
+INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
+ VALUES ('Ponche de Habas','B',210,2.5,0.6);
+
+INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
+ VALUES ('Quinua con leche','B',200,2.5,0.8);
+
+INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
+ VALUES ('Pan con queso fresco','P',201,4.5,0.4);
+
+INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
+ VALUES ('Pan con camote','P',198,4.0,0.8);
+
+INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
+ VALUES ('Pan con aceituna','P',200,3.0,0.6);
+
+INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
+ VALUES ('Pan con mermelada','P',200,4.0,0.4);
+
+INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
+ VALUES ('Pan con manjar blanco','P',250,3.0,0.6);
+
+INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
+ VALUES ('Pan con pate','P',170,3.0,0.8);
+
+INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
+ VALUES ('Fruta','F',201,4.5,0.4);
+
+INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
+ VALUES ('Manzana','F',59,0.5,0.3);
+
+INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
+ VALUES ('platano','F',105,1.3,0.6);
+
+INSERT INTO Plato (detalle,tipo,energia,proteinas,hierro)
+ VALUES ('Mandarina','F',45,0.6,0.3);
 
 
--- ========================================
--- Programacion (fecha,idComida)
--- ========================================
--- TRUNCATE TABLE Programacion;
-insert into programacion (fecha,idComida)
-values ('2016-10-20',1);
 
-insert into programacion (fecha,idComida)
-values ('2016-10-20',2);
+/*======================
+-- VISTAS
+  ====================*/
+CREATE VIEW ENTRADA AS
+ SELECT * FROM PLATO WHERE TIPO='E';
+CREATE VIEW Segundo AS
+ SELECT * FROM PLATO WHERE TIPO='S';
+CREATE VIEW Refresco AS
+ SELECT * FROM PLATO WHERE TIPO='R';
+CREATE VIEW BebidaCaliente AS
+ SELECT * FROM PLATO WHERE TIPO='B';
+CREATE VIEW Pan AS
+ SELECT * FROM PLATO WHERE TIPO='P';
 
-insert into programacion (fecha,idComida)
-values ('2016-10-20',3);
-
-insert into programacion (fecha,idComida)
-values ('2016-10-21',1);
-
-insert into programacion (fecha,idComida)
-values ('2016-10-21',2);
-
-insert into programacion (fecha,idComida)
-values ('2016-10-21',3);
-
-insert into programacion (fecha,idComida)
-values ('2016-10-22',1);
-
-insert into programacion (fecha,idComida)
-values ('2016-10-22',2);
-
-insert into programacion (fecha,idComida)
-values ('2016-10-22',3);
-
-insert into programacion (fecha,idComida)
-values ('2016-10-23',1);
-
-insert into programacion (fecha,idComida)
-values ('2016-10-23',2);
-
-insert into programacion (fecha,idComida)
-values ('2016-10-23',3);
-
-insert into programacion (fecha,idComida)
-values ('2016-10-24',1);
-
-insert into programacion (fecha,idComida)
-values ('2016-10-24',2);
-
-insert into programacion (fecha,idComida)
-values ('2016-10-24',3);
-
-insert into programacion (fecha,idComida)
-values ('2016-10-25',1);
-
-insert into programacion (fecha,idComida)
-values ('2016-10-25',2);
-
-insert into programacion (fecha,idComida)
-values ('2016-10-25',3);
-
-insert into programacion (fecha,idComida)
-values ('2016-10-26',1);
+-- SELECT * FROM SEGUNDO WHERE DETALLE LIKE '%Arroz%';
 
 
-
--- INSERT INTO seq_registro()
--- values ();

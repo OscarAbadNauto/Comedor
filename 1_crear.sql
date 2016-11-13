@@ -190,6 +190,10 @@ ALTER TABLE Programacion ADD CONSTRAINT Programaci_Comi_FK FOREIGN KEY
 	REFERENCES Comida
 	(idComida);
 
+ALTER TABLE Programacion ADD CONSTRAINT comida_x_fecha
+	UNIQUE (idComida,fecha);
+      
+
 
 CREATE TABLE Turno (
 		idTurno INT NOT NULL, 
@@ -305,48 +309,6 @@ ALTER TABLE Ticket ADD CONSTRAINT T_A_FK FOREIGN KEY
 ALTER TABLE Ticket ADD CONSTRAINT ya_saco_ticket
       UNIQUE (idAlumno,idProgramacion);
 
-
-/*
-DROP TABLE TICKET;
-*/
-
-
-
-
-
--- ===============
--- esquema AUDITORIA
--- ===============
-/*
-CREATE TABLE Registro (
-    idRegistro INT NOT NULL, 
-    raciones INT, 
-	idComida INT NOT NULL,
-    fecha_inicio DATE NOT NULL, 
-	fecha_fin DATE NULL
-);
-
-ALTER TABLE Registro ADD CONSTRAINT pk_Registro
-   PRIMARY KEY (idRegistro);
-
-ALTER TABLE Registro ADD CONSTRAINT Registro_Comida_FK FOREIGN KEY
-	(idComida)
-	REFERENCES Comida
-	(idComida);
-
-CREATE TABLE seq_registro (
-	id INT NOT NULL,
-    curval INT default 0 not null
-);
-ALTER TABLE seq_registro ADD CONSTRAINT pk_seq_registro
-   PRIMARY KEY (id);
-ALTER TABLE seq_registro MODIFY id INT AUTO_INCREMENT;
-*/
-
-/*
-DROP TABLE Registro;
-DROP TABLE seq_registro;
-*/
 
 
 
