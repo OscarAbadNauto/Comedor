@@ -19,6 +19,8 @@ call p_login('12200056','batmanxd1234');
 
 
 
+call p_activar_alumno('33063326','01234567','32');
+select * from alumno;
  
  
  

@@ -34,6 +34,13 @@ call p_insertar_alumno('75073934','Abad','Nauto','Oscar Francescoli','OAbad','ba
 call p_insertar_alumno('49074234','Huaira','Reyna','Max Nimrod','MHuaira','batmanxd1234',
  '12200056',(select idEscuela from Escuela where detalle='Ingeniería de Software'));
 
+
+INSERT INTO Alumno (dni, apellido_paterno,apellido_materno,
+		nombre,usuario,codigo_universitario,idEscuela)
+	VALUES ("33063326","fdfd","fd","fdf",
+		"fdsdf","01234567",75);
+
+
   
 /*
 call p_login('14200180','letmein1234');

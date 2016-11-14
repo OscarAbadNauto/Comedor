@@ -73,7 +73,7 @@ CREATE TABLE Alumno (
 		apellido_paterno      VARCHAR(45) NOT NULL, 
 		nombre                VARCHAR(50) NOT NULL, 
 		usuario               VARCHAR(30) NOT NULL,
-		contrasenia           VARCHAR(30) NOT NULL, 
+		contrasenia           VARCHAR(30) NULL,
 		codigo_universitario  VARCHAR(8) NOT NULL, 
 		idEscuela             INT NOT NULL
 );

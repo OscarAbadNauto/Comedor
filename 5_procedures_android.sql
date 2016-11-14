@@ -140,7 +140,7 @@ CREATE DEFINER=`root`@`localhost` PROCEDURE `p_programacion_semanal`(
         END;
     END CASE;
     set f=DATE_FORMAT(f_retornar_fecha(dia_nro), '%Y-%m-%d');
-	select DAYNAME(p.fecha),p.fecha,l.detalle,l.proteinas,l.energia,l.hierro
+	select l.detalle,l.proteinas,l.energia,l.hierro
     from programacionplato o 
 		JOIN plato l ON (o.idPlato=l.idPlato)
         JOIN programacion p ON (o.idProgramacion=p.idProgramacion)
@@ -174,4 +174,29 @@ CREATE DEFINER=`root`@`localhost` PROCEDURE `p_insert_ticket`(
     -- mediante el trigger 't_hay_ticket'
 END$$
 DELIMITER ;
+
+
+
+DROP PROCEDURE IF EXISTS p_activar_alumno;
+DELIMITER $$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `p_activar_alumno`(
+	IN	alu_dni                   VARCHAR(8),
+    IN	alu_codigo_universitario  VARCHAR(8),
+    IN	alu_contrasenia           VARCHAR(30)
+)
+BEGIN
+	DECLARE id INT;
+    set id= -1;
+    set id=(SELECT idAlumno FROM ALUMNO WHERE DNI=alu_dni AND codigo_universitario=alu_codigo_universitario);
+    IF(id=-1) THEN
+		SIGNAL sqlstate '45001' set message_text = "DNI y codigo no coinciden o alumno no se encuentra registrado";
+	else
+		UPDATE Alumno SET          
+		contrasenia	= SUBSTRING(sha1(alu_contrasenia),1,30)
+		WHERE idAlumno=id;
+    end if;
+    
+END$$
+DELIMITER ;
+
 
