@@ -39,7 +39,7 @@ select * from contador;
  
 
 
-
+select * from programacion where fecha='2016-11-28' and idComida=3;
 
 
 /*======================
@@ -56,9 +56,15 @@ from ticket t
 
 
 
+call p_todoslosplatos();
+
+call p_platos_por_tipo('S');
 
 
 
+call p_platos_por_detalle('rojo');
+
+call p_buscar_tipo_y_detalle('S','Arroz');
 
 call p_listar_platos_de_programacion('2016-11-05',1);
 call p_listar_platos_de_programacion('2016-11-05',2);
@@ -72,4 +78,6 @@ call p_listar_platos_de_programacion('2016-11-07',1);
 call p_listar_platos_de_programacion('2016-11-07',2);
 call p_listar_platos_de_programacion('2016-11-07',3);
 
+
+call p_listar_platos_de_programacion('2016-11-28',3);
 

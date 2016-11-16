@@ -31,7 +31,7 @@ DELIMITER ;
 
 -- call p_login('14200180','letmein1234');
 
-
+select * from alumno;
 /*======================
 -- CONSULTA 2
 -- verificar si hay tickets disponibles y en que turnos y piso

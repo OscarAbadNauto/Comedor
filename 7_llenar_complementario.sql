@@ -205,8 +205,12 @@ insert into programacion (fecha,idComida)
   values ('2016-11-28',2);
 insert into programacion (fecha,idComida)
   values ('2016-11-28',3);
-  
-  
+
+call p_insertar_programacion('2016-11-29',1);
+
+
+
+
 /* call p_agregar_plato_a_programacion(fecha,idComida,idPlato)
 idComida:1 = Desayuno
          2 = Almuerzo
@@ -615,7 +619,8 @@ call p_insertar_plato_a_programacion('2016-11-28',3,8);
 call p_insertar_plato_a_programacion('2016-11-28',3,16);
 
 
-
+call p_elimina_plato_programacion(72,16);
+call p_actualizar_plato(72,8,9);
 
 
 

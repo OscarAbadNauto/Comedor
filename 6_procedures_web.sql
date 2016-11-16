@@ -202,22 +202,54 @@ DELIMITER ;
 
 -- call p_login_admin('ROOT','ROOT');
 
+DROP PROCEDURE IF EXISTS p_insertar_programacion;
+DELIMITER $$
+CREATE DEFINER = `root`@`localhost` PROCEDURE `p_insertar_programacion`(    
+		in prog_fecha DATE, 
+        in prog_idComida INT
+)
+BEGIN
+insert into Programacion (idComida,fecha) values (prog_idComida,prog_fecha);
+END$$
+DELIMITER ;
+   
+-- ELIMINAR PLATO DE PROGRAMACION
+DROP PROCEDURE IF EXISTS p_elimina_plato_programacion;
+DELIMITER $$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `p_elimina_plato_programacion`(
+	IN prog_idProgramacion INT,
+    IN plat_idPlato INT
+)
+BEGIN
+	DELETE FROM ProgramacionPlato WHERE (idProgramacion=prog_idProgramacion and idPlato=plat_idPlato);
+END $$
+DELIMITER ;
 
 DROP PROCEDURE IF EXISTS p_insertar_plato_a_programacion;
 DELIMITER $$
 CREATE DEFINER=`root`@`localhost` PROCEDURE `p_insertar_plato_a_programacion`(
-	IN prog_fecha DATE,
-    IN prog_idComida INT,
+    IN prog_idProgramacion INT,
     IN plat_idPlato INT
 )
 BEGIN
-	insert into programacionplato (idProgramacion,idPlato) values ((SELECT idProgramacion
-	 FROM Programacion
-	 WHERE fecha=prog_fecha AND idComida=prog_idComida),plat_idPlato);
+	insert into ProgramacionPlato (idProgramacion,idPlato) values (prog_idProgramacion,plat_idPlato);
 END$$
 DELIMITER ;
 
-
+-- ACTUALIZAR PLATO DE PROGRAMACION
+DROP PROCEDURE IF EXISTS p_actualizar_plato;
+DELIMITER $$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `p_actualizar_plato`(
+    IN prog_idProgramacion INT,
+    IN plat_idPlato INT,
+    IN new_plat_idPlato INT
+)
+BEGIN
+  UPDATE ProgramacionPlato SET
+	idPlato=new_plat_idPlato
+  WHERE (idProgramacion=prog_idProgramacion and idPlato=plat_idPlato);
+END $$
+DELIMITER ;
 
 
 DROP PROCEDURE IF EXISTS p_listar_platos_de_programacion;
@@ -238,30 +270,57 @@ BEGIN
 END$$
 DELIMITER ;
 
-
-DROP PROCEDURE IF EXISTS p_buscar_plato;
+-- LISTAR PLATOS
+DROP PROCEDURE IF EXISTS p_todoslosplatos;
 DELIMITER $$
-CREATE DEFINER=`root`@`localhost` PROCEDURE `p_buscar_plato`(
-    	in consulta                   VARCHAR(40)
-)
+CREATE DEFINER=`root`@`localhost` PROCEDURE `p_todoslosplatos`()
 BEGIN
-  SELECT * 
-	FROM PLATO 
-	WHERE DETALLE LIKE concat('%',consulta,'%');
-
+ SELECT *
+ FROM Plato
+ ORDER BY detalle
+ LIMIT 30;
 END $$
 DELIMITER ;
 
 
-DROP PROCEDURE IF EXISTS p_buscar_segundo;
+-- DATOS PLATO POR TIPO COMIDA
+DROP PROCEDURE IF EXISTS p_platos_por_tipo;
 DELIMITER $$
-CREATE DEFINER=`root`@`localhost` PROCEDURE `p_buscar_segundo`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `p_platos_por_tipo`(
+   IN ptipo CHAR(1)
+)
+BEGIN
+ SELECT *
+ FROM Plato
+ WHERE tipo = ptipo;
+END $$
+DELIMITER $$
+
+-- DATOS POR DETALLE PLATO
+DROP PROCEDURE IF EXISTS p_platos_por_detalle;
+DELIMITER $$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `p_platos_por_detalle`(
     	in consulta                   VARCHAR(40)
 )
 BEGIN
   SELECT * 
-	FROM SEGUNDO 
-	WHERE DETALLE LIKE concat('%',consulta,'%');
+	FROM Plato
+	WHERE detalle LIKE concat('%',consulta,'%');
+
+END $$
+DELIMITER ;
+
+-- DATOS PLATO POR TIPO COMIDA Y DETALLE PLATO
+DROP PROCEDURE IF EXISTS p_buscar_tipo_y_detalle;
+DELIMITER $$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `p_buscar_tipo_y_detalle`(
+	    IN ptipo CHAR(1),
+        in consulta VARCHAR(40)
+)
+BEGIN
+  SELECT * 
+	FROM Plato 
+	WHERE detalle LIKE concat('%',consulta,'%') and tipo=ptipo;
 
 END $$
 DELIMITER ;
