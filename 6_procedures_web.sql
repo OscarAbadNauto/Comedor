@@ -212,6 +212,20 @@ BEGIN
 insert into Programacion (idComida,fecha) values (prog_idComida,prog_fecha);
 END$$
 DELIMITER ;
+
+
+
+DROP PROCEDURE IF EXISTS p_buscar_programacion;
+DELIMITER $$
+CREATE DEFINER = `root`@`localhost` PROCEDURE `p_buscar_programacion`(    
+		in prog_fecha DATE, 
+        in prog_idComida INT
+)
+BEGIN
+select * from Programacion where idComida=prog_idComida AND fecha=prog_fecha;
+END$$
+DELIMITER ;
+
    
 -- ELIMINAR PLATO DE PROGRAMACION
 DROP PROCEDURE IF EXISTS p_elimina_plato_programacion;
