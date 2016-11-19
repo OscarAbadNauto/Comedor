@@ -78,6 +78,6 @@ call p_listar_platos_de_programacion('2016-11-07',1);
 call p_listar_platos_de_programacion('2016-11-07',2);
 call p_listar_platos_de_programacion('2016-11-07',3);
 
-
+call p_buscar_programacion('2016-11-07',3);
 call p_listar_platos_de_programacion('2016-11-28',3);
 

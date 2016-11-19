@@ -319,10 +319,11 @@ CREATE DEFINER=`root`@`localhost` PROCEDURE `p_platos_por_detalle`(
 BEGIN
   SELECT * 
 	FROM Plato
-	WHERE detalle LIKE concat('%',consulta,'%');
-
+	WHERE detalle LIKE concat('%',consulta,'%')
+	ORDER BY detalle;
 END $$
 DELIMITER ;
+
 
 -- DATOS PLATO POR TIPO COMIDA Y DETALLE PLATO
 DROP PROCEDURE IF EXISTS p_buscar_tipo_y_detalle;
@@ -334,8 +335,8 @@ CREATE DEFINER=`root`@`localhost` PROCEDURE `p_buscar_tipo_y_detalle`(
 BEGIN
   SELECT * 
 	FROM Plato 
-	WHERE detalle LIKE concat('%',consulta,'%') and tipo=ptipo;
-
+	WHERE detalle LIKE concat('%',consulta,'%') and tipo=ptipo
+	ORDER BY detalle;
 END $$
 DELIMITER ;
 
