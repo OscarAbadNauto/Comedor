@@ -250,6 +250,20 @@ BEGIN
 END$$
 DELIMITER ;
 
+DROP PROCEDURE IF EXISTS p_insertar_plato_a_programacion2;
+DELIMITER $$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `p_insertar_plato_a_programacion2`(
+    IN prog_fecha INT,
+    IN prog_idComida INT,
+    IN plat_idPlato INT
+)
+BEGIN
+	insert into ProgramacionPlato (idProgramacion
+    ,idPlato) values ((select idProgramacion from Programacion where fecha=prog_fecha and
+    idComida=prog_idComida),plat_idPlato);
+END$$
+DELIMITER ;
+
 -- ACTUALIZAR PLATO DE PROGRAMACION
 DROP PROCEDURE IF EXISTS p_actualizar_plato;
 DELIMITER $$

@@ -218,16 +218,16 @@ idComida:1 = Desayuno
          2 = Almuerzo
          3 = Cena
 */
-call p_insertar_plato_a_programacion('2016-11-05',1,24);
-call p_insertar_plato_a_programacion('2016-11-05',1,25);
+call p_insertar_plato_a_programacion2('2016-11-05',1,24);
+call p_insertar_plato_a_programacion2('2016-11-05',1,25);
 
-call p_insertar_plato_a_programacion('2016-11-05',2,4);
-call p_insertar_plato_a_programacion('2016-11-05',2,12);
-call p_insertar_plato_a_programacion('2016-11-05',2,13);
-call p_insertar_plato_a_programacion('2016-11-05',2,31);
+call p_insertar_plato_a_programacion2('2016-11-05',2,4);
+call p_insertar_plato_a_programacion2('2016-11-05',2,12);
+call p_insertar_plato_a_programacion2('2016-11-05',2,13);
+call p_insertar_plato_a_programacion2('2016-11-05',2,31);
 
-call p_insertar_plato_a_programacion('2016-11-05',3,8);
-call p_insertar_plato_a_programacion('2016-11-05',3,16);
+call p_insertar_plato_a_programacion2('2016-11-05',3,8);
+call p_insertar_plato_a_programacion2('2016-11-05',3,16);
 
 
 
@@ -235,16 +235,16 @@ call p_insertar_plato_a_programacion('2016-11-05',3,16);
 
 
 
-call p_insertar_plato_a_programacion('2016-11-06',1,24);
-call p_insertar_plato_a_programacion('2016-11-06',1,25);
+call p_insertar_plato_a_programacion2('2016-11-06',1,24);
+call p_insertar_plato_a_programacion2('2016-11-06',1,25);
 
-call p_insertar_plato_a_programacion('2016-11-06',2,4);
-call p_insertar_plato_a_programacion('2016-11-06',2,12);
-call p_insertar_plato_a_programacion('2016-11-06',2,13);
-call p_insertar_plato_a_programacion('2016-11-06',2,31);
+call p_insertar_plato_a_programacion2('2016-11-06',2,4);
+call p_insertar_plato_a_programacion2('2016-11-06',2,12);
+call p_insertar_plato_a_programacion2('2016-11-06',2,13);
+call p_insertar_plato_a_programacion2('2016-11-06',2,31);
 
-call p_insertar_plato_a_programacion('2016-11-06',3,8);
-call p_insertar_plato_a_programacion('2016-11-06',3,16);
+call p_insertar_plato_a_programacion2('2016-11-06',3,8);
+call p_insertar_plato_a_programacion2('2016-11-06',3,16);
 
 
 
@@ -252,16 +252,16 @@ call p_insertar_plato_a_programacion('2016-11-06',3,16);
 
 
 
-call p_insertar_plato_a_programacion('2016-11-07',1,24);
-call p_insertar_plato_a_programacion('2016-11-07',1,25);
+call p_insertar_plato_a_programacion2('2016-11-07',1,24);
+call p_insertar_plato_a_programacion2('2016-11-07',1,25);
 
-call p_insertar_plato_a_programacion('2016-11-07',2,4);
-call p_insertar_plato_a_programacion('2016-11-07',2,12);
-call p_insertar_plato_a_programacion('2016-11-07',2,13);
-call p_insertar_plato_a_programacion('2016-11-07',2,31);
+call p_insertar_plato_a_programacion2('2016-11-07',2,4);
+call p_insertar_plato_a_programacion2('2016-11-07',2,12);
+call p_insertar_plato_a_programacion2('2016-11-07',2,13);
+call p_insertar_plato_a_programacion2('2016-11-07',2,31);
 
-call p_insertar_plato_a_programacion('2016-11-07',3,8);
-call p_insertar_plato_a_programacion('2016-11-07',3,16);
+call p_insertar_plato_a_programacion2('2016-11-07',3,8);
+call p_insertar_plato_a_programacion2('2016-11-07',3,16);
 
 
 
@@ -269,16 +269,16 @@ call p_insertar_plato_a_programacion('2016-11-07',3,16);
 
 
 
-call p_insertar_plato_a_programacion('2016-11-08',1,24);
-call p_insertar_plato_a_programacion('2016-11-08',1,25);
+call p_insertar_plato_a_programacion2('2016-11-08',1,24);
+call p_insertar_plato_a_programacion2('2016-11-08',1,25);
 
-call p_insertar_plato_a_programacion('2016-11-08',2,4);
-call p_insertar_plato_a_programacion('2016-11-08',2,12);
-call p_insertar_plato_a_programacion('2016-11-08',2,13);
-call p_insertar_plato_a_programacion('2016-11-08',2,31);
+call p_insertar_plato_a_programacion2('2016-11-08',2,4);
+call p_insertar_plato_a_programacion2('2016-11-08',2,12);
+call p_insertar_plato_a_programacion2('2016-11-08',2,13);
+call p_insertar_plato_a_programacion2('2016-11-08',2,31);
 
-call p_insertar_plato_a_programacion('2016-11-08',3,8);
-call p_insertar_plato_a_programacion('2016-11-08',3,16);
+call p_insertar_plato_a_programacion2('2016-11-08',3,8);
+call p_insertar_plato_a_programacion2('2016-11-08',3,16);
 
 
 
@@ -286,16 +286,16 @@ call p_insertar_plato_a_programacion('2016-11-08',3,16);
 
 
 
-call p_insertar_plato_a_programacion('2016-11-09',1,24);
-call p_insertar_plato_a_programacion('2016-11-09',1,25);
+call p_insertar_plato_a_programacion2('2016-11-09',1,24);
+call p_insertar_plato_a_programacion2('2016-11-09',1,25);
 
-call p_insertar_plato_a_programacion('2016-11-09',2,4);
-call p_insertar_plato_a_programacion('2016-11-09',2,12);
-call p_insertar_plato_a_programacion('2016-11-09',2,13);
-call p_insertar_plato_a_programacion('2016-11-09',2,31);
+call p_insertar_plato_a_programacion2('2016-11-09',2,4);
+call p_insertar_plato_a_programacion2('2016-11-09',2,12);
+call p_insertar_plato_a_programacion2('2016-11-09',2,13);
+call p_insertar_plato_a_programacion2('2016-11-09',2,31);
 
-call p_insertar_plato_a_programacion('2016-11-09',3,8);
-call p_insertar_plato_a_programacion('2016-11-09',3,16);
+call p_insertar_plato_a_programacion2('2016-11-09',3,8);
+call p_insertar_plato_a_programacion2('2016-11-09',3,16);
 
 
 
@@ -303,16 +303,16 @@ call p_insertar_plato_a_programacion('2016-11-09',3,16);
 
 
 
-call p_insertar_plato_a_programacion('2016-11-10',1,24);
-call p_insertar_plato_a_programacion('2016-11-10',1,25);
+call p_insertar_plato_a_programacion2('2016-11-10',1,24);
+call p_insertar_plato_a_programacion2('2016-11-10',1,25);
 
-call p_insertar_plato_a_programacion('2016-11-10',2,4);
-call p_insertar_plato_a_programacion('2016-11-10',2,12);
-call p_insertar_plato_a_programacion('2016-11-10',2,13);
-call p_insertar_plato_a_programacion('2016-11-10',2,31);
+call p_insertar_plato_a_programacion2('2016-11-10',2,4);
+call p_insertar_plato_a_programacion2('2016-11-10',2,12);
+call p_insertar_plato_a_programacion2('2016-11-10',2,13);
+call p_insertar_plato_a_programacion2('2016-11-10',2,31);
 
-call p_insertar_plato_a_programacion('2016-11-10',3,8);
-call p_insertar_plato_a_programacion('2016-11-10',3,16);
+call p_insertar_plato_a_programacion2('2016-11-10',3,8);
+call p_insertar_plato_a_programacion2('2016-11-10',3,16);
 
 
 
@@ -320,16 +320,16 @@ call p_insertar_plato_a_programacion('2016-11-10',3,16);
 
 
 
-call p_insertar_plato_a_programacion('2016-11-11',1,24);
-call p_insertar_plato_a_programacion('2016-11-11',1,25);
+call p_insertar_plato_a_programacion2('2016-11-11',1,24);
+call p_insertar_plato_a_programacion2('2016-11-11',1,25);
 
-call p_insertar_plato_a_programacion('2016-11-11',2,4);
-call p_insertar_plato_a_programacion('2016-11-11',2,12);
-call p_insertar_plato_a_programacion('2016-11-11',2,13);
-call p_insertar_plato_a_programacion('2016-11-11',2,31);
+call p_insertar_plato_a_programacion2('2016-11-11',2,4);
+call p_insertar_plato_a_programacion2('2016-11-11',2,12);
+call p_insertar_plato_a_programacion2('2016-11-11',2,13);
+call p_insertar_plato_a_programacion2('2016-11-11',2,31);
 
-call p_insertar_plato_a_programacion('2016-11-11',3,8);
-call p_insertar_plato_a_programacion('2016-11-11',3,16);
+call p_insertar_plato_a_programacion2('2016-11-11',3,8);
+call p_insertar_plato_a_programacion2('2016-11-11',3,16);
 
 
 
@@ -337,16 +337,16 @@ call p_insertar_plato_a_programacion('2016-11-11',3,16);
 
 
 
-call p_insertar_plato_a_programacion('2016-11-12',1,24);
-call p_insertar_plato_a_programacion('2016-11-12',1,25);
+call p_insertar_plato_a_programacion2('2016-11-12',1,24);
+call p_insertar_plato_a_programacion2('2016-11-12',1,25);
 
-call p_insertar_plato_a_programacion('2016-11-12',2,4);
-call p_insertar_plato_a_programacion('2016-11-12',2,12);
-call p_insertar_plato_a_programacion('2016-11-12',2,13);
-call p_insertar_plato_a_programacion('2016-11-12',2,31);
+call p_insertar_plato_a_programacion2('2016-11-12',2,4);
+call p_insertar_plato_a_programacion2('2016-11-12',2,12);
+call p_insertar_plato_a_programacion2('2016-11-12',2,13);
+call p_insertar_plato_a_programacion2('2016-11-12',2,31);
 
-call p_insertar_plato_a_programacion('2016-11-12',3,8);
-call p_insertar_plato_a_programacion('2016-11-12',3,16);
+call p_insertar_plato_a_programacion2('2016-11-12',3,8);
+call p_insertar_plato_a_programacion2('2016-11-12',3,16);
 
 
 
@@ -354,16 +354,16 @@ call p_insertar_plato_a_programacion('2016-11-12',3,16);
 
 
 
-call p_insertar_plato_a_programacion('2016-11-13',1,24);
-call p_insertar_plato_a_programacion('2016-11-13',1,25);
+call p_insertar_plato_a_programacion2('2016-11-13',1,24);
+call p_insertar_plato_a_programacion2('2016-11-13',1,25);
 
-call p_insertar_plato_a_programacion('2016-11-13',2,4);
-call p_insertar_plato_a_programacion('2016-11-13',2,12);
-call p_insertar_plato_a_programacion('2016-11-13',2,13);
-call p_insertar_plato_a_programacion('2016-11-13',2,31);
+call p_insertar_plato_a_programacion2('2016-11-13',2,4);
+call p_insertar_plato_a_programacion2('2016-11-13',2,12);
+call p_insertar_plato_a_programacion2('2016-11-13',2,13);
+call p_insertar_plato_a_programacion2('2016-11-13',2,31);
 
-call p_insertar_plato_a_programacion('2016-11-13',3,8);
-call p_insertar_plato_a_programacion('2016-11-13',3,16);
+call p_insertar_plato_a_programacion2('2016-11-13',3,8);
+call p_insertar_plato_a_programacion2('2016-11-13',3,16);
 
 
 
@@ -371,16 +371,16 @@ call p_insertar_plato_a_programacion('2016-11-13',3,16);
 
 
 
-call p_insertar_plato_a_programacion('2016-11-14',1,24);
-call p_insertar_plato_a_programacion('2016-11-14',1,25);
+call p_insertar_plato_a_programacion2('2016-11-14',1,24);
+call p_insertar_plato_a_programacion2('2016-11-14',1,25);
 
-call p_insertar_plato_a_programacion('2016-11-14',2,4);
-call p_insertar_plato_a_programacion('2016-11-14',2,12);
-call p_insertar_plato_a_programacion('2016-11-14',2,13);
-call p_insertar_plato_a_programacion('2016-11-14',2,31);
+call p_insertar_plato_a_programacion2('2016-11-14',2,4);
+call p_insertar_plato_a_programacion2('2016-11-14',2,12);
+call p_insertar_plato_a_programacion2('2016-11-14',2,13);
+call p_insertar_plato_a_programacion2('2016-11-14',2,31);
 
-call p_insertar_plato_a_programacion('2016-11-14',3,8);
-call p_insertar_plato_a_programacion('2016-11-14',3,16);
+call p_insertar_plato_a_programacion2('2016-11-14',3,8);
+call p_insertar_plato_a_programacion2('2016-11-14',3,16);
 
 
 
@@ -388,16 +388,16 @@ call p_insertar_plato_a_programacion('2016-11-14',3,16);
 
 
 
-call p_insertar_plato_a_programacion('2016-11-15',1,24);
-call p_insertar_plato_a_programacion('2016-11-15',1,25);
+call p_insertar_plato_a_programacion2('2016-11-15',1,24);
+call p_insertar_plato_a_programacion2('2016-11-15',1,25);
 
-call p_insertar_plato_a_programacion('2016-11-15',2,4);
-call p_insertar_plato_a_programacion('2016-11-15',2,12);
-call p_insertar_plato_a_programacion('2016-11-15',2,13);
-call p_insertar_plato_a_programacion('2016-11-15',2,31);
+call p_insertar_plato_a_programacion2('2016-11-15',2,4);
+call p_insertar_plato_a_programacion2('2016-11-15',2,12);
+call p_insertar_plato_a_programacion2('2016-11-15',2,13);
+call p_insertar_plato_a_programacion2('2016-11-15',2,31);
 
-call p_insertar_plato_a_programacion('2016-11-15',3,8);
-call p_insertar_plato_a_programacion('2016-11-15',3,16);
+call p_insertar_plato_a_programacion2('2016-11-15',3,8);
+call p_insertar_plato_a_programacion2('2016-11-15',3,16);
 
 
 
@@ -405,16 +405,16 @@ call p_insertar_plato_a_programacion('2016-11-15',3,16);
 
 
 
-call p_insertar_plato_a_programacion('2016-11-16',1,24);
-call p_insertar_plato_a_programacion('2016-11-16',1,25);
+call p_insertar_plato_a_programacion2('2016-11-16',1,24);
+call p_insertar_plato_a_programacion2('2016-11-16',1,25);
 
-call p_insertar_plato_a_programacion('2016-11-16',2,4);
-call p_insertar_plato_a_programacion('2016-11-16',2,12);
-call p_insertar_plato_a_programacion('2016-11-16',2,13);
-call p_insertar_plato_a_programacion('2016-11-16',2,31);
+call p_insertar_plato_a_programacion2('2016-11-16',2,4);
+call p_insertar_plato_a_programacion2('2016-11-16',2,12);
+call p_insertar_plato_a_programacion2('2016-11-16',2,13);
+call p_insertar_plato_a_programacion2('2016-11-16',2,31);
 
-call p_insertar_plato_a_programacion('2016-11-16',3,8);
-call p_insertar_plato_a_programacion('2016-11-16',3,16);
+call p_insertar_plato_a_programacion2('2016-11-16',3,8);
+call p_insertar_plato_a_programacion2('2016-11-16',3,16);
 
 
 
@@ -422,16 +422,16 @@ call p_insertar_plato_a_programacion('2016-11-16',3,16);
 
 
 
-call p_insertar_plato_a_programacion('2016-11-17',1,24);
-call p_insertar_plato_a_programacion('2016-11-17',1,25);
+call p_insertar_plato_a_programacion2('2016-11-17',1,24);
+call p_insertar_plato_a_programacion2('2016-11-17',1,25);
 
-call p_insertar_plato_a_programacion('2016-11-17',2,4);
-call p_insertar_plato_a_programacion('2016-11-17',2,12);
-call p_insertar_plato_a_programacion('2016-11-17',2,13);
-call p_insertar_plato_a_programacion('2016-11-17',2,31);
+call p_insertar_plato_a_programacion2('2016-11-17',2,4);
+call p_insertar_plato_a_programacion2('2016-11-17',2,12);
+call p_insertar_plato_a_programacion2('2016-11-17',2,13);
+call p_insertar_plato_a_programacion2('2016-11-17',2,31);
 
-call p_insertar_plato_a_programacion('2016-11-17',3,8);
-call p_insertar_plato_a_programacion('2016-11-17',3,16);
+call p_insertar_plato_a_programacion2('2016-11-17',3,8);
+call p_insertar_plato_a_programacion2('2016-11-17',3,16);
 
 
 
@@ -439,16 +439,16 @@ call p_insertar_plato_a_programacion('2016-11-17',3,16);
 
 
 
-call p_insertar_plato_a_programacion('2016-11-18',1,24);
-call p_insertar_plato_a_programacion('2016-11-18',1,25);
+call p_insertar_plato_a_programacion2('2016-11-18',1,24);
+call p_insertar_plato_a_programacion2('2016-11-18',1,25);
 
-call p_insertar_plato_a_programacion('2016-11-18',2,4);
-call p_insertar_plato_a_programacion('2016-11-18',2,12);
-call p_insertar_plato_a_programacion('2016-11-18',2,13);
-call p_insertar_plato_a_programacion('2016-11-18',2,31);
+call p_insertar_plato_a_programacion2('2016-11-18',2,4);
+call p_insertar_plato_a_programacion2('2016-11-18',2,12);
+call p_insertar_plato_a_programacion2('2016-11-18',2,13);
+call p_insertar_plato_a_programacion2('2016-11-18',2,31);
 
-call p_insertar_plato_a_programacion('2016-11-18',3,8);
-call p_insertar_plato_a_programacion('2016-11-18',3,16);
+call p_insertar_plato_a_programacion2('2016-11-18',3,8);
+call p_insertar_plato_a_programacion2('2016-11-18',3,16);
 
 
 
@@ -456,16 +456,16 @@ call p_insertar_plato_a_programacion('2016-11-18',3,16);
 
 
 
-call p_insertar_plato_a_programacion('2016-11-19',1,24);
-call p_insertar_plato_a_programacion('2016-11-19',1,25);
+call p_insertar_plato_a_programacion2('2016-11-19',1,24);
+call p_insertar_plato_a_programacion2('2016-11-19',1,25);
 
-call p_insertar_plato_a_programacion('2016-11-19',2,4);
-call p_insertar_plato_a_programacion('2016-11-19',2,12);
-call p_insertar_plato_a_programacion('2016-11-19',2,13);
-call p_insertar_plato_a_programacion('2016-11-19',2,31);
+call p_insertar_plato_a_programacion2('2016-11-19',2,4);
+call p_insertar_plato_a_programacion2('2016-11-19',2,12);
+call p_insertar_plato_a_programacion2('2016-11-19',2,13);
+call p_insertar_plato_a_programacion2('2016-11-19',2,31);
 
-call p_insertar_plato_a_programacion('2016-11-19',3,8);
-call p_insertar_plato_a_programacion('2016-11-19',3,16);
+call p_insertar_plato_a_programacion2('2016-11-19',3,8);
+call p_insertar_plato_a_programacion2('2016-11-19',3,16);
 
 
 
@@ -473,16 +473,16 @@ call p_insertar_plato_a_programacion('2016-11-19',3,16);
 
 
 
-call p_insertar_plato_a_programacion('2016-11-20',1,24);
-call p_insertar_plato_a_programacion('2016-11-20',1,25);
+call p_insertar_plato_a_programacion2('2016-11-20',1,24);
+call p_insertar_plato_a_programacion2('2016-11-20',1,25);
 
-call p_insertar_plato_a_programacion('2016-11-20',2,4);
-call p_insertar_plato_a_programacion('2016-11-20',2,12);
-call p_insertar_plato_a_programacion('2016-11-20',2,13);
-call p_insertar_plato_a_programacion('2016-11-20',2,31);
+call p_insertar_plato_a_programacion2('2016-11-20',2,4);
+call p_insertar_plato_a_programacion2('2016-11-20',2,12);
+call p_insertar_plato_a_programacion2('2016-11-20',2,13);
+call p_insertar_plato_a_programacion2('2016-11-20',2,31);
 
-call p_insertar_plato_a_programacion('2016-11-20',3,8);
-call p_insertar_plato_a_programacion('2016-11-20',3,16);
+call p_insertar_plato_a_programacion2('2016-11-20',3,8);
+call p_insertar_plato_a_programacion2('2016-11-20',3,16);
 
 
 
@@ -490,16 +490,16 @@ call p_insertar_plato_a_programacion('2016-11-20',3,16);
 
 
 
-call p_insertar_plato_a_programacion('2016-11-21',1,24);
-call p_insertar_plato_a_programacion('2016-11-21',1,25);
+call p_insertar_plato_a_programacion2('2016-11-21',1,24);
+call p_insertar_plato_a_programacion2('2016-11-21',1,25);
 
-call p_insertar_plato_a_programacion('2016-11-21',2,4);
-call p_insertar_plato_a_programacion('2016-11-21',2,12);
-call p_insertar_plato_a_programacion('2016-11-21',2,13);
-call p_insertar_plato_a_programacion('2016-11-21',2,31);
+call p_insertar_plato_a_programacion2('2016-11-21',2,4);
+call p_insertar_plato_a_programacion2('2016-11-21',2,12);
+call p_insertar_plato_a_programacion2('2016-11-21',2,13);
+call p_insertar_plato_a_programacion2('2016-11-21',2,31);
 
-call p_insertar_plato_a_programacion('2016-11-21',3,8);
-call p_insertar_plato_a_programacion('2016-11-21',3,16);
+call p_insertar_plato_a_programacion2('2016-11-21',3,8);
+call p_insertar_plato_a_programacion2('2016-11-21',3,16);
 
 
 
@@ -507,16 +507,16 @@ call p_insertar_plato_a_programacion('2016-11-21',3,16);
 
 
 
-call p_insertar_plato_a_programacion('2016-11-22',1,24);
-call p_insertar_plato_a_programacion('2016-11-22',1,25);
+call p_insertar_plato_a_programacion2('2016-11-22',1,24);
+call p_insertar_plato_a_programacion2('2016-11-22',1,25);
 
-call p_insertar_plato_a_programacion('2016-11-22',2,4);
-call p_insertar_plato_a_programacion('2016-11-22',2,12);
-call p_insertar_plato_a_programacion('2016-11-22',2,13);
-call p_insertar_plato_a_programacion('2016-11-22',2,31);
+call p_insertar_plato_a_programacion2('2016-11-22',2,4);
+call p_insertar_plato_a_programacion2('2016-11-22',2,12);
+call p_insertar_plato_a_programacion2('2016-11-22',2,13);
+call p_insertar_plato_a_programacion2('2016-11-22',2,31);
 
-call p_insertar_plato_a_programacion('2016-11-22',3,8);
-call p_insertar_plato_a_programacion('2016-11-22',3,16);
+call p_insertar_plato_a_programacion2('2016-11-22',3,8);
+call p_insertar_plato_a_programacion2('2016-11-22',3,16);
 
 
 
@@ -524,16 +524,16 @@ call p_insertar_plato_a_programacion('2016-11-22',3,16);
 
 
 
-call p_insertar_plato_a_programacion('2016-11-23',1,24);
-call p_insertar_plato_a_programacion('2016-11-23',1,25);
+call p_insertar_plato_a_programacion2('2016-11-23',1,24);
+call p_insertar_plato_a_programacion2('2016-11-23',1,25);
 
-call p_insertar_plato_a_programacion('2016-11-23',2,4);
-call p_insertar_plato_a_programacion('2016-11-23',2,12);
-call p_insertar_plato_a_programacion('2016-11-23',2,13);
-call p_insertar_plato_a_programacion('2016-11-23',2,31);
+call p_insertar_plato_a_programacion2('2016-11-23',2,4);
+call p_insertar_plato_a_programacion2('2016-11-23',2,12);
+call p_insertar_plato_a_programacion2('2016-11-23',2,13);
+call p_insertar_plato_a_programacion2('2016-11-23',2,31);
 
-call p_insertar_plato_a_programacion('2016-11-23',3,8);
-call p_insertar_plato_a_programacion('2016-11-23',3,16);
+call p_insertar_plato_a_programacion2('2016-11-23',3,8);
+call p_insertar_plato_a_programacion2('2016-11-23',3,16);
 
 
 
@@ -541,16 +541,16 @@ call p_insertar_plato_a_programacion('2016-11-23',3,16);
 
 
 
-call p_insertar_plato_a_programacion('2016-11-24',1,24);
-call p_insertar_plato_a_programacion('2016-11-24',1,25);
+call p_insertar_plato_a_programacion2('2016-11-24',1,24);
+call p_insertar_plato_a_programacion2('2016-11-24',1,25);
 
-call p_insertar_plato_a_programacion('2016-11-24',2,4);
-call p_insertar_plato_a_programacion('2016-11-24',2,12);
-call p_insertar_plato_a_programacion('2016-11-24',2,13);
-call p_insertar_plato_a_programacion('2016-11-24',2,31);
+call p_insertar_plato_a_programacion2('2016-11-24',2,4);
+call p_insertar_plato_a_programacion2('2016-11-24',2,12);
+call p_insertar_plato_a_programacion2('2016-11-24',2,13);
+call p_insertar_plato_a_programacion2('2016-11-24',2,31);
 
-call p_insertar_plato_a_programacion('2016-11-24',3,8);
-call p_insertar_plato_a_programacion('2016-11-24',3,16);
+call p_insertar_plato_a_programacion2('2016-11-24',3,8);
+call p_insertar_plato_a_programacion2('2016-11-24',3,16);
 
 
 
@@ -558,16 +558,16 @@ call p_insertar_plato_a_programacion('2016-11-24',3,16);
 
 
 
-call p_insertar_plato_a_programacion('2016-11-25',1,24);
-call p_insertar_plato_a_programacion('2016-11-25',1,25);
+call p_insertar_plato_a_programacion2('2016-11-25',1,24);
+call p_insertar_plato_a_programacion2('2016-11-25',1,25);
 
-call p_insertar_plato_a_programacion('2016-11-25',2,4);
-call p_insertar_plato_a_programacion('2016-11-25',2,12);
-call p_insertar_plato_a_programacion('2016-11-25',2,13);
-call p_insertar_plato_a_programacion('2016-11-25',2,31);
+call p_insertar_plato_a_programacion2('2016-11-25',2,4);
+call p_insertar_plato_a_programacion2('2016-11-25',2,12);
+call p_insertar_plato_a_programacion2('2016-11-25',2,13);
+call p_insertar_plato_a_programacion2('2016-11-25',2,31);
 
-call p_insertar_plato_a_programacion('2016-11-25',3,8);
-call p_insertar_plato_a_programacion('2016-11-25',3,16);
+call p_insertar_plato_a_programacion2('2016-11-25',3,8);
+call p_insertar_plato_a_programacion2('2016-11-25',3,16);
 
 
 
@@ -575,16 +575,16 @@ call p_insertar_plato_a_programacion('2016-11-25',3,16);
 
 
 
-call p_insertar_plato_a_programacion('2016-11-26',1,24);
-call p_insertar_plato_a_programacion('2016-11-26',1,25);
+call p_insertar_plato_a_programacion2('2016-11-26',1,24);
+call p_insertar_plato_a_programacion2('2016-11-26',1,25);
 
-call p_insertar_plato_a_programacion('2016-11-26',2,4);
-call p_insertar_plato_a_programacion('2016-11-26',2,12);
-call p_insertar_plato_a_programacion('2016-11-26',2,13);
-call p_insertar_plato_a_programacion('2016-11-26',2,31);
+call p_insertar_plato_a_programacion2('2016-11-26',2,4);
+call p_insertar_plato_a_programacion2('2016-11-26',2,12);
+call p_insertar_plato_a_programacion2('2016-11-26',2,13);
+call p_insertar_plato_a_programacion2('2016-11-26',2,31);
 
-call p_insertar_plato_a_programacion('2016-11-26',3,8);
-call p_insertar_plato_a_programacion('2016-11-26',3,16);
+call p_insertar_plato_a_programacion2('2016-11-26',3,8);
+call p_insertar_plato_a_programacion2('2016-11-26',3,16);
 
 
 
@@ -592,16 +592,16 @@ call p_insertar_plato_a_programacion('2016-11-26',3,16);
 
 
 
-call p_insertar_plato_a_programacion('2016-11-27',1,24);
-call p_insertar_plato_a_programacion('2016-11-27',1,25);
+call p_insertar_plato_a_programacion2('2016-11-27',1,24);
+call p_insertar_plato_a_programacion2('2016-11-27',1,25);
 
-call p_insertar_plato_a_programacion('2016-11-27',2,4);
-call p_insertar_plato_a_programacion('2016-11-27',2,12);
-call p_insertar_plato_a_programacion('2016-11-27',2,13);
-call p_insertar_plato_a_programacion('2016-11-27',2,31);
+call p_insertar_plato_a_programacion2('2016-11-27',2,4);
+call p_insertar_plato_a_programacion2('2016-11-27',2,12);
+call p_insertar_plato_a_programacion2('2016-11-27',2,13);
+call p_insertar_plato_a_programacion2('2016-11-27',2,31);
 
-call p_insertar_plato_a_programacion('2016-11-27',3,8);
-call p_insertar_plato_a_programacion('2016-11-27',3,16);
+call p_insertar_plato_a_programacion2('2016-11-27',3,8);
+call p_insertar_plato_a_programacion2('2016-11-27',3,16);
 
 
 
@@ -609,16 +609,16 @@ call p_insertar_plato_a_programacion('2016-11-27',3,16);
 
 
 
-call p_insertar_plato_a_programacion('2016-11-28',1,24);
-call p_insertar_plato_a_programacion('2016-11-28',1,25);
+call p_insertar_plato_a_programacion2('2016-11-28',1,24);
+call p_insertar_plato_a_programacion2('2016-11-28',1,25);
 
-call p_insertar_plato_a_programacion('2016-11-28',2,4);
-call p_insertar_plato_a_programacion('2016-11-28',2,12);
-call p_insertar_plato_a_programacion('2016-11-28',2,13);
-call p_insertar_plato_a_programacion('2016-11-28',2,31);
+call p_insertar_plato_a_programacion2('2016-11-28',2,4);
+call p_insertar_plato_a_programacion2('2016-11-28',2,12);
+call p_insertar_plato_a_programacion2('2016-11-28',2,13);
+call p_insertar_plato_a_programacion2('2016-11-28',2,31);
 
-call p_insertar_plato_a_programacion('2016-11-28',3,8);
-call p_insertar_plato_a_programacion('2016-11-28',3,16);
+call p_insertar_plato_a_programacion2('2016-11-28',3,8);
+call p_insertar_plato_a_programacion2('2016-11-28',3,16);
 
 
 call p_elimina_plato_programacion(72,16);
