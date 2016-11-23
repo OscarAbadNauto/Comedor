@@ -62,7 +62,7 @@ call p_platos_por_tipo('S');
 
 
 
-call p_platos_por_detalle('rojo');
+call p_platos_por_detalle('Ar');
 
 call p_buscar_tipo_y_detalle('S','Arroz');
 

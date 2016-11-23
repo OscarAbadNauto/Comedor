@@ -20,35 +20,37 @@ call p_login_admin('SYS','SYS');
 
 -- ========================================
 -- Alumno (dni, apellido_paterno,apellido_materno,nombre,
---           usuario,contrasenia,codigo,escuela)
+--           contrasenia,codigo,escuela)
 -- ========================================
+INSERT INTO Alumno (dni, apellido_paterno,apellido_materno,nombre,
+         contrasenia,codigo,escuela)
+  VALUES ('73091842','Arce','Llantoy','Luis','letmein1234', '14200180',
+  (select idEscuela from Escuela where detalle='Ingeniería de Software'));
 
-call p_insertar_alumno('73091842','Arce','Llantoy','Luis','LArce','letmein1234',
- '14200180',(select idEscuela from Escuela where detalle='Ingeniería de Software'));
-call p_insertar_alumno('48563304','Quino','Crispin','Alexander Nelson','AQuino','letmein1234',
- '14200198',(select idEscuela from Escuela where detalle='Ingeniería de Software'));
-call p_insertar_alumno('46073980','Yataco','Irrazaval','Saroff Wilfredo','SYataco','batmanxd1234',
- '11200169',(select idEscuela from Escuela where detalle='Ingeniería de Software'));
-call p_insertar_alumno('75073934','Abad','Nauto','Oscar Francescoli','OAbad','batmanxd1234',
+INSERT INTO Alumno (dni, apellido_paterno,apellido_materno,nombre,
+         codigo,escuela)
+  VALUES ('75073934','Abad','Nauto','Oscar Francescoli',
  '14200212',(select idEscuela from Escuela where detalle='Ingeniería de Software'));
-call p_insertar_alumno('49074234','Huaira','Reyna','Max Nimrod','MHuaira','batmanxd1234',
+
+INSERT INTO Alumno (dni, apellido_paterno,apellido_materno,nombre,
+         codigo,escuela)
+  VALUES ('49074234','Huaira','Reyna','Max Nimrod',
  '12200056',(select idEscuela from Escuela where detalle='Ingeniería de Software'));
 
+INSERT INTO Alumno (dni, apellido_paterno,apellido_materno,nombre,
+         codigo,escuela)
+  VALUES ('48563304','Quino','Crispin','Alexander Nelson',
+ '14200198',(select idEscuela from Escuela where detalle='Ingeniería de Software'));
 
-INSERT INTO Alumno (dni, apellido_paterno,apellido_materno,
-		nombre,usuario,codigo_universitario,idEscuela)
-	VALUES ("33063326","fdfd","fd","fdf",
-		"fdsdf","01234567",75);
+INSERT INTO Alumno (dni, apellido_paterno,apellido_materno,nombre,
+         codigo,escuela)
+  VALUES ('46073980','Yataco','Irrazaval','Saroff Wilfredo',
+ '11200169',(select idEscuela from Escuela where detalle='Ingeniería de Software'));
 
 
-  
-/*
-call p_login('14200180','letmein1234');
-call p_login('14200198','letmein1234');
-call p_login('11200169','batmanxd1234');
-call p_login('14200212','batmanxd1234');
-call p_login('12200056','batmanxd1234');
-*/
+
+
+
 
 insert into programacion (fecha,idComida)
   values ('2016-11-05',1);

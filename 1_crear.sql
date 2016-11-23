@@ -71,8 +71,7 @@ CREATE TABLE Alumno (
 		dni                   VARCHAR(8) NOT NULL, 
 		apellido_materno      VARCHAR(45) NOT NULL, 
 		apellido_paterno      VARCHAR(45) NOT NULL, 
-		nombre                VARCHAR(50) NOT NULL, 
-		usuario               VARCHAR(30) NOT NULL,
+		nombre                VARCHAR(50) NOT NULL,
 		contrasenia           VARCHAR(30) NULL,
 		codigo_universitario  VARCHAR(8) NOT NULL, 
 		idEscuela             INT NOT NULL
@@ -85,9 +84,6 @@ ALTER TABLE Alumno MODIFY idAlumno INT AUTO_INCREMENT;
 
 ALTER TABLE Alumno ADD CONSTRAINT unico_Alumno_dni
       UNIQUE (dni);
-
-ALTER TABLE Alumno ADD CONSTRAINT unico_Alumno_usuario
-      UNIQUE (usuario);
 
 ALTER TABLE Alumno ADD CONSTRAINT unico_Alumno_codigo
       UNIQUE (codigo_universitario);

@@ -3,45 +3,45 @@
 -- Facultad (idFacultad, detalle, numero)
 -- ========================================
 -- TRUNCATE TABLE FACULTAD;
- INSERT INTO FACULTAD ( detalle, numero)
+ INSERT INTO Facultad ( detalle, numero)
  VALUES ( 'Facultad de Medicina Humana', '01');
- INSERT INTO FACULTAD ( detalle, numero)
+ INSERT INTO Facultad ( detalle, numero)
  VALUES ( 'Facultad de Derecho y Ciencia Política', '02');
- INSERT INTO FACULTAD ( detalle, numero)
+ INSERT INTO Facultad ( detalle, numero)
  VALUES ( 'Facultad de Letras y Ciencias Humanas', '03');
- INSERT INTO FACULTAD ( detalle, numero)
+ INSERT INTO Facultad ( detalle, numero)
  VALUES ( 'Facultad de Farmacia y Bioquimica', '04');
- INSERT INTO FACULTAD ( detalle, numero)
+ INSERT INTO Facultad ( detalle, numero)
  VALUES ( 'Facultad de Odontología', '05');  
- INSERT INTO FACULTAD ( detalle, numero)
+ INSERT INTO Facultad ( detalle, numero)
  VALUES ( 'Facultad de Educación', '06');
- INSERT INTO FACULTAD ( detalle, numero)
+ INSERT INTO Facultad ( detalle, numero)
  VALUES ( 'Facultad de Química e Ingeniería Química', '07');
- INSERT INTO FACULTAD ( detalle, numero)
+ INSERT INTO Facultad ( detalle, numero)
  VALUES ( 'Facultad de Medicina Veterinaria', '08');
- INSERT INTO FACULTAD ( detalle, numero)
+ INSERT INTO Facultad ( detalle, numero)
  VALUES ( 'Facultad de Ciencias Administrativas', '09');
- INSERT INTO FACULTAD ( detalle, numero)
+ INSERT INTO Facultad ( detalle, numero)
  VALUES ( 'Facultad de Ciencias Biológicas', '10');
- INSERT INTO FACULTAD ( detalle, numero)
+ INSERT INTO Facultad ( detalle, numero)
  VALUES ( 'Facultad de Ciencias Contables', '11');
- INSERT INTO FACULTAD ( detalle, numero)
+ INSERT INTO Facultad ( detalle, numero)
  VALUES ( 'Facultad de Ciencias Económicas', '12');
- INSERT INTO FACULTAD ( detalle, numero)
+ INSERT INTO Facultad ( detalle, numero)
  VALUES ( 'Facultad de Ciencias Físicas', '13');
- INSERT INTO FACULTAD ( detalle, numero)
+ INSERT INTO Facultad ( detalle, numero)
  VALUES ( 'Facultad de Ciencias Matemáticas', '14');
-  INSERT INTO FACULTAD ( detalle, numero)
+  INSERT INTO Facultad ( detalle, numero)
  VALUES ( 'Facultad de Ciencias Sociales', '15');
- INSERT INTO FACULTAD ( detalle, numero)
+ INSERT INTO Facultad ( detalle, numero)
  VALUES ( 'Facultad de Ingeniería Geológica,Minera,Metalurgica y Geográfica', '16');
- INSERT INTO FACULTAD ( detalle, numero)
+ INSERT INTO Facultad ( detalle, numero)
  VALUES ( 'Facultad de Ingeniería Industrial', '17');
- INSERT INTO FACULTAD ( detalle, numero)
+ INSERT INTO Facultad ( detalle, numero)
  VALUES ( 'Facultad de Psicología', '18');
- INSERT INTO FACULTAD ( detalle, numero)
+ INSERT INTO Facultad ( detalle, numero)
  VALUES ( 'Facultad de Ingeniería Electrónica y Eléctrica', '19');
- INSERT INTO FACULTAD ( detalle, numero)
+ INSERT INTO Facultad ( detalle, numero)
  VALUES ( 'Facultad de Ingeniería de Sistemas e Informática', '20');
 
 
@@ -50,155 +50,155 @@
 -- Escuela (idEscuela, detalle, numero,idFacultad)
 -- ========================================
 -- TRUNCATE TABLE Escuela;
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Medicina Humana', '1', 1);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Obstetricia', '2', 1);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Enfermería', '3', 1);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Tecnología Médica: Laboratorio Clinico y Anatomía Patológica', '4.1', 1);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Tecnología Médica: Terapia Física y Rehabilitación', '4.2', 1);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Tecnología Médica: Radiología', '4.3', 1);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Tecnología Médica: Terapia Ocupacional', '4.4', 1);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Nutrición', '5', 1);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Derecho', '2', 2);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Ciencia Política', '3', 2);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Literatura', '1', 3);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Filosofía', '3', 3);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Lingüística', '4', 3);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Comunicación Social', '5', 3);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Arte', '6', 3);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Bibliotecología y Ciencias de la Información', '7', 3);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Danza', '8', 3);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Conservación y Restauración', '9', 3);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Farmacia y Bioquímica', '1', 4);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Ciencias de los Alimentos', '2', 4);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Toxicología', '3', 4);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Odontología', '1', 5);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Educación Inicial', '1.1', 6);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Educación Primaria', '1.2', 6);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Educación Secundaria: Inglés y Castellano', '1.3.1', 6);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Educación Secundaria: Lenguaje y Literatura', '1.3.2', 6);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Educación Secundaria: Historia y Geografía', '1.3.3', 6);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Educación Secundaria: Filosofía, Tutoría y Ciencias Sociales', '1.3.4', 6);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Educación Secundaria: Matemática y Física', '1.3.5', 6);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Educación Secundaria: Biología y Química', '1.3.6', 6);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Educación Física', '2', 6);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Química', '1', 7);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Ingeniería Química', '2', 7);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Ingeniería Agroindustrial', '3', 7);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Medicina Veterinaria', '1', 8);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Administración', '1', 9);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Administración de Turismo', '2', 9);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Administración de Negocios Internacionales', '3', 9);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Ciencias Biológicas', '1', 10);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Genética y Biotecnología', '2', 10);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Microbiología y Parasitología', '3', 10);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Contabilidad', '1', 11);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Gestión Tributaria', '2', 11);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Auditoría Empresarial y Pública', '3', 11);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Economía', '1', 12);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Economía Pública', '2', 12);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Economía Internacional', '3', 12);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Física', '1', 13);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Ingeniería Mecánica de Fluidos', '2', 13);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Matemática', '1', 14);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Estadística', '2', 14);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Investigación Operativa', '4', 14);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Computación Científica', '5', 14);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Historia', '1', 15);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Sociología', '2', 15);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Antropología', '3', 15);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Arqueología', '4', 15);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Trabajo Social', '5', 15);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Geografía', '7', 15);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Ingeniería Geológica', '2', 16);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Ingeniería Geográfica', '3', 16);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Ingeniería de Minas', '5', 16);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Ingeniería Metalúrgica', '6', 16);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Ingeniería Civil', '7', 16);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Ingeniería Ambiental', '8', 16);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Ingeniería Industrial', '1', 17);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Ingeniería Textil y Confecciones', '2', 17);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Ingeniería de Seguridad y Salud en el Trabajo', '3', 17);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Psicología', '1', 18);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Psicología Organizacional y de Gestión Humana', '2', 18);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Ingeniería Electrónica', '1', 19);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Ingeniería Eléctrica', '2', 19);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Ingeniería de Telecomunicaciones', '3', 19);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Ingeniería de Sistemas', '1', 20);
-INSERT INTO ESCUELA( detalle, numero, idFacultad)
+INSERT INTO Escuela( detalle, numero, idFacultad)
  VALUES ( 'Ingeniería de Software', '2', 20);
 
 

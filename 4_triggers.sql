@@ -1,4 +1,4 @@
--- ========================================
+﻿-- ========================================
 -- Triggers necesarios para comenzar el proceso
 -- ========================================
 
@@ -44,56 +44,6 @@ begin
 end;//
 delimiter ;
 
-
-
-
-
--- ========================================
---  No permitir que se generen tickets
--- si no hay raciones.
--- ========================================
-DROP TRIGGER IF EXISTS t_hay_ticket;
-delimiter //
-create trigger t_hay_ticket before insert on ticket
-for each row 
-begin
- declare nro_raciones int;
- set nro_raciones = (select raciones
-					 from contador
-					 where idTurno=new.idTurno AND idProgramacion=new.idProgramacion AND nivel=new.nivel);
- IF nro_raciones <= 0 THEN
-    SIGNAL sqlstate '45001' set message_text = "No hay tickets";
- else 
-	set new.numero=(select contador
-				from programacion
-                where idProgramacion=new.idProgramacion);
- END IF;
- 
-end;//
-delimiter ;
-
-
-
-
--- ========================================
--- Al generar un ticket, descontar en el Contador
---  respectivo y aumentar el contador de la programacion
--- ========================================
-DROP TRIGGER IF EXISTS descontar_cont_aument_progra;
-
-delimiter //
-create trigger descontar_cont_aument_progra after insert on ticket
-for each row 
-begin
- UPDATE contador
-	SET raciones=raciones-1
-	WHERE idTurno=new.idTurno AND idProgramacion=new.idProgramacion AND nivel=new.nivel;
- UPDATE programacion
-	SET contador=contador+1
-	WHERE idProgramacion=new.idProgramacion;
- 
-end;//
-delimiter ;
 
 
 
