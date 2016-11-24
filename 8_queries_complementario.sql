@@ -39,7 +39,7 @@ select * from contador;
  
 
 
-select * from programacion where fecha='2016-11-28' and idComida=3;
+select * from programacion where fecha='2016-11-05' and idComida=1;
 
 
 /*======================

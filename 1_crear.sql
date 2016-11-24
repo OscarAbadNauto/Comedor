@@ -1,6 +1,6 @@
 
-CREATE DATABASE COMEDOR;
-USE COMEDOR;
+CREATE DATABASE comedor;
+USE comedor;
 
 -- ===============
 -- esquema CLIENTE Y ORGANIZACION

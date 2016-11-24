@@ -11,21 +11,20 @@
   ====================*/
 DROP PROCEDURE IF EXISTS p_insertar_alumno;
 DELIMITER $$
-CREATE DEFINER=`root`@`localhost` PROCEDURE `p_insertar_alumno`(
+CREATE PROCEDURE `p_insertar_alumno`(
 	IN	alu_dni                   VARCHAR(8),
 	IN	alu_apellido_materno      VARCHAR(45),
 	IN	alu_apellido_paterno      VARCHAR(45),
 	IN	alu_nombre                VARCHAR(50),
-	IN	alu_usuario               VARCHAR(30),
     IN	alu_contrasenia           VARCHAR(30), 
 	IN	alu_codigo_universitario  VARCHAR(8),
 	IN	alu_idEscuela             INT
 )
 BEGIN
 	INSERT INTO Alumno (dni, apellido_paterno,apellido_materno,
-		nombre,usuario,contrasenia,codigo_universitario,idEscuela)
+		nombre,contrasenia,codigo_universitario,idEscuela)
 	VALUES (alu_dni,alu_apellido_paterno,alu_apellido_materno,alu_nombre,
-		alu_usuario,SUBSTRING(sha1(alu_contrasenia),1,30),alu_codigo_universitario,alu_idEscuela);
+		alu_contrasenia,alu_codigo_universitario,alu_idEscuela);
 END$$
 DELIMITER ;
 /*
@@ -36,9 +35,9 @@ call p_insertar_alumno('48563304','Quino','Crispin','Alexander Nelson','AQuino',
 */
 
 -- DATOS POR ALUMNO
-DROP PROCEDURE IF EXISTS p_datosalumnoporid;
+DROP PROCEDURE   IF EXISTS p_datosalumnoporid;
 DELIMITER $$
-CREATE DEFINER=`root`@`localhost` PROCEDURE `p_datosalumnoporid`(
+CREATE PROCEDURE `p_datosalumnoporid`(
    IN PIDALUMNO INT
 )
 BEGIN
@@ -51,7 +50,7 @@ DELIMITER $$
 -- ELIMINAR ALUMNO
 DROP PROCEDURE IF EXISTS p_eliminaalumno;
 DELIMITER $$
-CREATE DEFINER=`root`@`localhost` PROCEDURE `p_eliminaalumno`(
+CREATE   PROCEDURE `p_eliminaalumno`(
   IN PIDALUMNO INTEGER
 )
 BEGIN
@@ -62,7 +61,7 @@ DELIMITER ;
 -- LISTAR ALUMNOS
 DROP PROCEDURE IF EXISTS p_listaralumnos;
 DELIMITER $$
-CREATE DEFINER=`root`@`localhost` PROCEDURE `p_listaralumnos`()
+CREATE   PROCEDURE `p_listaralumnos`()
 BEGIN
  SELECT *
  FROM Alumno
@@ -73,13 +72,12 @@ DELIMITER ;
 -- ACTUALIZAR ALUMNO
 DROP PROCEDURE IF EXISTS p_actualizaralumno;
 DELIMITER $$
-CREATE DEFINER=`root`@`localhost` PROCEDURE `p_actualizaralumno`(
+CREATE   PROCEDURE `p_actualizaralumno`(
     	in pidAlumno              INT  , 
 		in pdni                   VARCHAR(8)  , 
 		in papellido_materno      VARCHAR(45)  , 
 		in papellido_paterno      VARCHAR(45)  , 
-		in pnombre                VARCHAR(50)  , 
-		in pusuario               VARCHAR(30)  ,
+		in pnombre                VARCHAR(50)  ,
 		in pcontrasenia           VARCHAR(30)  , 
 		in pcodigo_universitario  VARCHAR(8)  , 
 		in pidEscuela             INT 
@@ -90,8 +88,7 @@ BEGIN
 	dni= pdni,                  
 	apellido_materno = papellido_materno,      
 	apellido_paterno = papellido_paterno,     
-	nombre = pnombre,                
-	usuario	= pusuario,               
+	nombre = pnombre,                 
 	contrasenia	= pcontrasenia,           
 	codigo_universitario = pcodigo_universitario,   
 	idEscuela = pidEscuela    
@@ -105,7 +102,7 @@ DELIMITER ;
 -- ADMINNISTRADOR 
 DROP PROCEDURE IF EXISTS p_insertar_admin;
 DELIMITER $$
-CREATE DEFINER=`root`@`localhost` PROCEDURE `p_insertar_admin`(
+CREATE   PROCEDURE `p_insertar_admin`(
 	IN	a_dni                   VARCHAR(8),
 	IN	a_apellido_paterno      VARCHAR(45),
 	IN	a_apellido_materno      VARCHAR(45),
@@ -125,7 +122,7 @@ DELIMITER ;
 -- DATOS POR ADMINISTRADORID
 DROP PROCEDURE IF EXISTS p_datosadminporid;
 DELIMITER $$
-CREATE DEFINER=`root`@`localhost` PROCEDURE `p_datosadminporid`(
+CREATE   PROCEDURE `p_datosadminporid`(
    IN PIDADMIN INT
 )
 BEGIN
@@ -138,7 +135,7 @@ DELIMITER $$
 -- ELIMINAR ADMINISTRADOR
 DROP PROCEDURE IF EXISTS p_eliminaadmin;
 DELIMITER $$
-CREATE DEFINER=`root`@`localhost` PROCEDURE `p_eliminaadmin`(
+CREATE   PROCEDURE `p_eliminaadmin`(
   IN PIDADMIN INTEGER
 )
 BEGIN
@@ -149,7 +146,7 @@ DELIMITER ;
 -- LISTAR ADMINISTRADORES
 DROP PROCEDURE IF EXISTS p_listaradmin;
 DELIMITER $$
-CREATE DEFINER=`root`@`localhost` PROCEDURE `p_listaradmin`()
+CREATE   PROCEDURE `p_listaradmin`()
 BEGIN
  SELECT *
  FROM Administrador
@@ -160,7 +157,7 @@ DELIMITER ;
 -- ACTUALIZAR ADMINISTRADOR
 DROP PROCEDURE IF EXISTS p_actualizaradmin;
 DELIMITER $$
-CREATE DEFINER=`root`@`localhost` PROCEDURE `p_actualizaradmin`(
+CREATE   PROCEDURE `p_actualizaradmin`(
     	in pidAdmin             INT  , 
 		in pdni                   VARCHAR(8)  , 
 		in papellido_materno      VARCHAR(45)  , 
@@ -189,7 +186,7 @@ DELIMITER ;
 -- LOGIN ADMINISTRADOR
 DROP PROCEDURE IF EXISTS p_login_admin;
 DELIMITER $$
-CREATE DEFINER=`root`@`localhost` PROCEDURE `p_login_admin`(
+CREATE   PROCEDURE `p_login_admin`(
 	IN adm_usuario VARCHAR(40),
     IN adm_contra VARCHAR(40)
 )
@@ -204,7 +201,7 @@ DELIMITER ;
 
 DROP PROCEDURE IF EXISTS p_insertar_programacion;
 DELIMITER $$
-CREATE DEFINER = `root`@`localhost` PROCEDURE `p_insertar_programacion`(    
+CREATE PROCEDURE `p_insertar_programacion`(    
 		in prog_fecha DATE, 
         in prog_idComida INT
 )
@@ -215,9 +212,11 @@ DELIMITER ;
 
 
 
+
+
 DROP PROCEDURE IF EXISTS p_buscar_programacion;
 DELIMITER $$
-CREATE DEFINER = `root`@`localhost` PROCEDURE `p_buscar_programacion`(    
+CREATE PROCEDURE `p_buscar_programacion`(    
 		in prog_fecha DATE, 
         in prog_idComida INT
 )
@@ -230,7 +229,7 @@ DELIMITER ;
 -- ELIMINAR PLATO DE PROGRAMACION
 DROP PROCEDURE IF EXISTS p_elimina_plato_programacion;
 DELIMITER $$
-CREATE DEFINER=`root`@`localhost` PROCEDURE `p_elimina_plato_programacion`(
+CREATE   PROCEDURE `p_elimina_plato_programacion`(
 	IN prog_idProgramacion INT,
     IN plat_idPlato INT
 )
@@ -241,7 +240,7 @@ DELIMITER ;
 
 DROP PROCEDURE IF EXISTS p_insertar_plato_a_programacion;
 DELIMITER $$
-CREATE DEFINER=`root`@`localhost` PROCEDURE `p_insertar_plato_a_programacion`(
+CREATE   PROCEDURE `p_insertar_plato_a_programacion`(
     IN prog_idProgramacion INT,
     IN plat_idPlato INT
 )
@@ -252,8 +251,8 @@ DELIMITER ;
 
 DROP PROCEDURE IF EXISTS p_insertar_plato_a_programacion2;
 DELIMITER $$
-CREATE DEFINER=`root`@`localhost` PROCEDURE `p_insertar_plato_a_programacion2`(
-    IN prog_fecha INT,
+CREATE   PROCEDURE `p_insertar_plato_a_programacion2`(
+    IN prog_fecha DATE,
     IN prog_idComida INT,
     IN plat_idPlato INT
 )
@@ -267,7 +266,7 @@ DELIMITER ;
 -- ACTUALIZAR PLATO DE PROGRAMACION
 DROP PROCEDURE IF EXISTS p_actualizar_plato;
 DELIMITER $$
-CREATE DEFINER=`root`@`localhost` PROCEDURE `p_actualizar_plato`(
+CREATE   PROCEDURE `p_actualizar_plato`(
     IN prog_idProgramacion INT,
     IN plat_idPlato INT,
     IN new_plat_idPlato INT
@@ -285,7 +284,7 @@ DELIMITER $$
 -- ver los platos de una programacion
 -- entrada: fecha, idComida
 -- salida: el conjunto de platos
-CREATE DEFINER=`root`@`localhost` PROCEDURE `p_listar_platos_de_programacion`(
+CREATE   PROCEDURE `p_listar_platos_de_programacion`(
 	IN prog_fecha DATE,
     IN prog_idComida INT
 )
@@ -301,7 +300,7 @@ DELIMITER ;
 -- LISTAR PLATOS
 DROP PROCEDURE IF EXISTS p_todoslosplatos;
 DELIMITER $$
-CREATE DEFINER=`root`@`localhost` PROCEDURE `p_todoslosplatos`()
+CREATE   PROCEDURE `p_todoslosplatos`()
 BEGIN
  SELECT *
  FROM Plato
@@ -314,7 +313,7 @@ DELIMITER ;
 -- DATOS PLATO POR TIPO COMIDA
 DROP PROCEDURE IF EXISTS p_platos_por_tipo;
 DELIMITER $$
-CREATE DEFINER=`root`@`localhost` PROCEDURE `p_platos_por_tipo`(
+CREATE   PROCEDURE `p_platos_por_tipo`(
    IN ptipo CHAR(1)
 )
 BEGIN
@@ -327,7 +326,7 @@ DELIMITER $$
 -- DATOS POR DETALLE PLATO
 DROP PROCEDURE IF EXISTS p_platos_por_detalle;
 DELIMITER $$
-CREATE DEFINER=`root`@`localhost` PROCEDURE `p_platos_por_detalle`(
+CREATE   PROCEDURE `p_platos_por_detalle`(
     	in consulta                   VARCHAR(40)
 )
 BEGIN
@@ -342,7 +341,7 @@ DELIMITER ;
 -- DATOS PLATO POR TIPO COMIDA Y DETALLE PLATO
 DROP PROCEDURE IF EXISTS p_buscar_tipo_y_detalle;
 DELIMITER $$
-CREATE DEFINER=`root`@`localhost` PROCEDURE `p_buscar_tipo_y_detalle`(
+CREATE   PROCEDURE `p_buscar_tipo_y_detalle`(
 	    IN ptipo CHAR(1),
         in consulta VARCHAR(40)
 )

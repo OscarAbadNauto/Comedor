@@ -23,27 +23,27 @@ call p_login_admin('SYS','SYS');
 --           contrasenia,codigo,escuela)
 -- ========================================
 INSERT INTO Alumno (dni, apellido_paterno,apellido_materno,nombre,
-         contrasenia,codigo,escuela)
+         contrasenia,codigo_universitario,idescuela)
   VALUES ('73091842','Arce','Llantoy','Luis','letmein1234', '14200180',
   (select idEscuela from Escuela where detalle='Ingeniería de Software'));
 
 INSERT INTO Alumno (dni, apellido_paterno,apellido_materno,nombre,
-         codigo,escuela)
+         codigo_universitario,idescuela)
   VALUES ('75073934','Abad','Nauto','Oscar Francescoli',
  '14200212',(select idEscuela from Escuela where detalle='Ingeniería de Software'));
 
 INSERT INTO Alumno (dni, apellido_paterno,apellido_materno,nombre,
-         codigo,escuela)
+         codigo_universitario,idescuela)
   VALUES ('49074234','Huaira','Reyna','Max Nimrod',
  '12200056',(select idEscuela from Escuela where detalle='Ingeniería de Software'));
 
 INSERT INTO Alumno (dni, apellido_paterno,apellido_materno,nombre,
-         codigo,escuela)
+         codigo_universitario,idescuela)
   VALUES ('48563304','Quino','Crispin','Alexander Nelson',
  '14200198',(select idEscuela from Escuela where detalle='Ingeniería de Software'));
 
 INSERT INTO Alumno (dni, apellido_paterno,apellido_materno,nombre,
-         codigo,escuela)
+         codigo_universitario,idescuela)
   VALUES ('46073980','Yataco','Irrazaval','Saroff Wilfredo',
  '11200169',(select idEscuela from Escuela where detalle='Ingeniería de Software'));
 
@@ -208,6 +208,19 @@ insert into programacion (fecha,idComida)
 insert into programacion (fecha,idComida)
   values ('2016-11-28',3);
 
+insert into programacion (fecha,idComida)
+  values ('2016-11-29',1);
+insert into programacion (fecha,idComida)
+  values ('2016-11-29',2);
+insert into programacion (fecha,idComida)
+  values ('2016-11-29',3);
+insert into programacion (fecha,idComida)
+  values ('2016-11-30',1);
+insert into programacion (fecha,idComida)
+  values ('2016-11-30',2);
+insert into programacion (fecha,idComida)
+  values ('2016-11-30',3);
+
 call p_insertar_programacion('2016-11-29',1);
 
 
@@ -218,6 +231,8 @@ idComida:1 = Desayuno
          2 = Almuerzo
          3 = Cena
 */
+
+
 call p_insertar_plato_a_programacion2('2016-11-05',1,24);
 call p_insertar_plato_a_programacion2('2016-11-05',1,25);
 
@@ -620,6 +635,39 @@ call p_insertar_plato_a_programacion2('2016-11-28',2,31);
 call p_insertar_plato_a_programacion2('2016-11-28',3,8);
 call p_insertar_plato_a_programacion2('2016-11-28',3,16);
 
+
+
+
+
+
+
+call p_insertar_plato_a_programacion2('2016-11-29',1,24);
+call p_insertar_plato_a_programacion2('2016-11-29',1,25);
+
+call p_insertar_plato_a_programacion2('2016-11-29',2,4);
+call p_insertar_plato_a_programacion2('2016-11-29',2,12);
+call p_insertar_plato_a_programacion2('2016-11-29',2,13);
+call p_insertar_plato_a_programacion2('2016-11-29',2,31);
+
+call p_insertar_plato_a_programacion2('2016-11-29',3,8);
+call p_insertar_plato_a_programacion2('2016-11-29',3,16);
+
+
+
+
+
+
+
+call p_insertar_plato_a_programacion2('2016-11-30',1,24);
+call p_insertar_plato_a_programacion2('2016-11-30',1,25);
+
+call p_insertar_plato_a_programacion2('2016-11-30',2,4);
+call p_insertar_plato_a_programacion2('2016-11-30',2,12);
+call p_insertar_plato_a_programacion2('2016-11-30',2,13);
+call p_insertar_plato_a_programacion2('2016-11-30',2,31);
+
+call p_insertar_plato_a_programacion2('2016-11-30',3,8);
+call p_insertar_plato_a_programacion2('2016-11-30',3,16);
 
 call p_elimina_plato_programacion(72,16);
 call p_actualizar_plato(72,8,9);

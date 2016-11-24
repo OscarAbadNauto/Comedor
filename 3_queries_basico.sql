@@ -3,7 +3,7 @@
 --  tambien se usa como unidad de testeo
 -- ========================================
 
-SELECT * FROM facultad;
+SELECT * FROM Facultad;
 
 
 /*======================
